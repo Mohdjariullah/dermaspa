@@ -36,7 +36,7 @@ export default function Contact() {
         {/* Info text and clinic name below form/map */}
         <div className="w-full flex flex-col items-center justify-center mt-10 mb-8">
           <span className="uppercase text-xs font-semibold tracking-widest mb-2  text-black">Questions or Comments?</span>
-          <p className="text-gray-600 text-sm mb-2 text-center max-w-2xl text-black">Do you have questions about our products? Do you need help in designing your skin care regimen? Drop us a line, and we'll get back to you as soon as possible.</p>
+          <p className="text-gray-600 text-sm mb-2 text-center max-w-2xl text-black">Do you have questions about our products? Do you need help in designing your skin care regimen? Drop us a line, and we&apos;ll get back to you as soon as possible.</p>
           <span className="uppercase text-xs font-semibold tracking-widest mt-2 mb-2 text-black">DERMAL SKIN CLINIC AND SPA GUAM</span>
         </div>
       </main>

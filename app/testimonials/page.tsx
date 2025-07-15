@@ -59,7 +59,7 @@ export default function Testimonials() {
                   <div className="flex text-yellow-400 mb-2">
                     {[...Array(5)].map((_, i) => <FaStar key={i} />)}
                   </div>
-                  <p className="text-center text-black text-base mb-4">"{review.text}"</p>
+                  <p className="text-center text-black text-base mb-4">&quot;{review.text}&quot;</p>
                   <a href={review.link} target="_blank" rel="noopener noreferrer" className="text-[#a9445b] font-semibold flex items-center gap-1 hover:underline">Read full review <span>&#8250;</span></a>
                   <div className="mt-4 text-xs text-gray-700 font-semibold w-full text-left">
                     {review.name} - {review.date}
