@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Navbar from "../components/common/Navbar";
@@ -21,7 +23,12 @@ export default function Home() {
           <div className="absolute right-8 bottom-8 md:right-24 md:bottom-16 flex flex-col items-center">
             <div className="bg-[#fbb6c1] rounded-full w-[320px] h-[320px] flex flex-col items-center justify-center shadow-xl">
               <span className="text-2xl md:text-3xl font-bold text-[#a9445b] text-center mb-4">HAPPY SKIN!<br/>HAPPY YOU!</span>
-              <button className="bg-black text-white px-8 py-3 rounded shadow hover:bg-[#a9445b] transition font-semibold">BOOK NOW!</button>
+              <button 
+                onClick={() => window.location.href = '/services'}
+                className="bg-black text-white px-8 py-3 rounded shadow hover:bg-[#a9445b] transition font-semibold"
+              >
+                BOOK NOW!
+              </button>
             </div>
           </div>
         </div>

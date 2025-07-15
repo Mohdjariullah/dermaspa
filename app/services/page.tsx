@@ -15,7 +15,7 @@ const serviceCategories = [
 ];
 
 const allServices = [
-  // Initial 6 services (shown first)
+  // Esthetic Facials
   {
     id: 1,
     title: "Basic Facial (For Men & Women)",
@@ -26,7 +26,7 @@ const allServices = [
   },
   {
     id: 2,
-    title: "Deep Cleansing Facial (For Men & Women)",
+    title: "Deep Cleansing Facial (for Men & Women)",
     duration: "1 hr",
     price: "$79",
     image: "/rs=w_1023,cg_true (1).jpeg",
@@ -50,7 +50,7 @@ const allServices = [
   },
   {
     id: 5,
-    title: "Anti-Aging Facial",
+    title: "Anti-Acne Facial (for Men & Women)",
     duration: "1 hr",
     price: "$90",
     image: "/rs=w_1023,cg_true (4).jpeg",
@@ -58,277 +58,343 @@ const allServices = [
   },
   {
     id: 6,
-    title: "Acne Facial",
+    title: "Microderm Facial",
     duration: "1 hr",
-    price: "$90",
-    image: "/cr=w_1232hsa621.jpeg",
+    price: "$99",
+    image: "/cr=w_1240,h_620.jpeg",
     category: "Esthetic Facials"
   },
-  // Additional services (shown after "See All")
   {
     id: 7,
-    title: "Dermal Skin Clinic and Spa Guam",
+    title: "Vitamin C Facial with Extreme Softness",
     duration: "1 hr",
-    price: "$90",
-    image: "/cr=w_1240,h_620.jpeg",
+    price: "$120",
+    image: "/cr=w_1232hsa621.jpeg",
     category: "Esthetic Facials"
   },
   {
     id: 8,
-    title: "Swedish Massage",
+    title: "Acne Vulgaris Facial",
     duration: "1 hr",
-    price: "$79",
+    price: "$120",
+    image: "/rs=w_1023,cg_true.jpeg",
+    category: "Esthetic Facials"
+  },
+  {
+    id: 9,
+    title: "Dermal VIP Card $50 / Year",
+    duration: "30 mins",
+    price: "$50",
+    image: "/rs=w_1023,cg_true (1).jpeg",
+    category: "Esthetic Facials"
+  },
+  // Face & Body Packages
+  {
+    id: 10,
+    title: "Balinese Body Massage + Basic Facial",
+    duration: "1 hr 30 mins",
+    price: "$130",
+    image: "/rs=w_1023,cg_true (2).jpeg",
+    category: "Face & Body Packages"
+  },
+  {
+    id: 11,
+    title: "Deep Tissue Body Massage + 3Face",
+    duration: "2 hrs",
+    price: "$180",
+    image: "/rs=w_1023,cg_true (3).jpeg",
+    category: "Face & Body Packages"
+  },
+  {
+    id: 12,
+    title: "Hot Stone Body Massage + Microderm Facial",
+    duration: "2 hrs 30 mins",
+    price: "$200",
+    image: "/rs=w_1023,cg_true (4).jpeg",
+    category: "Face & Body Packages"
+  },
+  {
+    id: 13,
+    title: "Dermal VIP Card $50 / Year",
+    duration: "30 mins",
+    price: "$50",
+    image: "/cr=w_1232hsa621.jpeg",
+    category: "Face & Body Packages"
+  },
+  // Body Massages
+  {
+    id: 14,
+    title: "Balinese Body Massage",
+    duration: "1 hr",
+    price: "$80",
+    image: "/cr=w_1240,h_620.jpeg",
+    category: "Body Massages"
+  },
+  {
+    id: 15,
+    title: "Maternity Massage",
+    duration: "1 hr",
+    price: "$85",
     image: "/rs=w_1023,cg_true.jpeg",
     category: "Body Massages"
   },
   {
-    id: 9,
-    title: "Shiatsu Massage",
+    id: 16,
+    title: "Stretching Body Massage",
     duration: "1 hr",
-    price: "$79",
+    price: "$85",
     image: "/rs=w_1023,cg_true (1).jpeg",
     category: "Body Massages"
   },
   {
-    id: 10,
-    title: "Deep Tissue Massage",
+    id: 17,
+    title: "Deep Tissue Body Massage",
     duration: "1 hr",
-    price: "$79",
+    price: "$90",
     image: "/rs=w_1023,cg_true (2).jpeg",
     category: "Body Massages"
   },
   {
-    id: 11,
+    id: 18,
     title: "Hot Stone Massage",
     duration: "1 hr",
-    price: "$79",
+    price: "$90",
     image: "/rs=w_1023,cg_true (3).jpeg",
     category: "Body Massages"
   },
   {
-    id: 12,
-    title: "Sweet Coconut Scrub + Deep Moisturizing",
-    duration: "1 hr",
-    price: "$79",
+    id: 19,
+    title: "Hot Stone Massage 90 Minutes",
+    duration: "1 hr 30 mins",
+    price: "$120",
     image: "/rs=w_1023,cg_true (4).jpeg",
-    category: "Body Booster"
+    category: "Body Massages"
   },
+  // Body Booster
   {
-    id: 13,
-    title: "Body Scrub + Body Wrap",
-    duration: "1 hr",
-    price: "$79",
+    id: 20,
+    title: "Underarm Cleaning",
+    duration: "30 mins",
+    price: "$99",
     image: "/cr=w_1232hsa621.jpeg",
     category: "Body Booster"
   },
   {
-    id: 14,
-    title: "Body Massage + Body Scrub",
-    duration: "1 hr",
-    price: "$79",
+    id: 21,
+    title: "Back Treatment",
+    duration: "30 mins",
+    price: "$99",
     image: "/cr=w_1240,h_620.jpeg",
     category: "Body Booster"
   },
   {
-    id: 15,
-    title: "Body Massage + Body Wrap",
+    id: 22,
+    title: "Chemical Peel (Body) Per Area",
+    duration: "30 mins",
+    price: "$85",
+    image: "/rs=w_1023,cg_true.jpeg",
+    category: "Body Booster"
+  },
+  {
+    id: 23,
+    title: "Underarm or Inguinal Whitening",
+    duration: "30 mins",
+    price: "$150",
+    image: "/rs=w_1023,cg_true (1).jpeg",
+    category: "Body Booster"
+  },
+  {
+    id: 24,
+    title: "Vajacial + Brazilian Wax",
     duration: "1 hr",
-    price: "$79",
+    price: "$130",
+    image: "/rs=w_1023,cg_true (2).jpeg",
+    category: "Body Booster"
+  },
+  {
+    id: 25,
+    title: "Basic Vajacial Cleaning + Brazilian Wax",
+    duration: "30 mins",
+    price: "$90",
+    image: "/rs=w_1023,cg_true (3).jpeg",
+    category: "Body Booster"
+  },
+  {
+    id: 26,
+    title: "Microdermabrasion (Body) Per Area",
+    duration: "30 mins",
+    price: "$85",
+    image: "/rs=w_1023,cg_true (4).jpeg",
+    category: "Body Booster"
+  },
+  {
+    id: 27,
+    title: "Deep Moisturizing Body Treatment",
+    duration: "30 mins",
+    price: "$65",
+    image: "/cr=w_1232hsa621.jpeg",
+    category: "Body Booster"
+  },
+  {
+    id: 28,
+    title: "Dead Sea Salt Body Scrub + Deep Moisturizing",
+    duration: "30 mins",
+    price: "$65",
+    image: "/cr=w_1240,h_620.jpeg",
+    category: "Body Booster"
+  },
+  {
+    id: 29,
+    title: "Mud Mask Body Wrap + Deep Moisturizing Body Treatment",
+    duration: "30 mins",
+    price: "$65",
     image: "/rs=w_1023,cg_true.jpeg",
     category: "Body Booster"
   },
   // Waxing Services
   {
-    id: 16,
-    title: "Underarm Waxing",
-    duration: "15 mins",
-    price: "$25",
-    image: "/rs=w_1023,cg_true (1).jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 17,
-    title: "Half Arm Waxing",
-    duration: "30 mins",
-    price: "$35",
-    image: "/rs=w_1023,cg_true (2).jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 18,
-    title: "Full Arm Waxing",
-    duration: "45 mins",
-    price: "$45",
-    image: "/rs=w_1023,cg_true (3).jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 19,
-    title: "Half Leg Waxing",
-    duration: "30 mins",
-    price: "$45",
-    image: "/rs=w_1023,cg_true (4).jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 20,
-    title: "Full Leg Waxing",
-    duration: "45 mins",
-    price: "$65",
-    image: "/cr=w_1232hsa621.jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 21,
-    title: "Bikini Waxing",
-    duration: "30 mins",
-    price: "$45",
-    image: "/cr=w_1240,h_620.jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 22,
-    title: "Brazilian Waxing",
-    duration: "45 mins",
-    price: "$65",
-    image: "/rs=w_1023,cg_true.jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 23,
+    id: 30,
     title: "Eyebrow Waxing",
     duration: "15 mins",
-    price: "$15",
+    price: "$20",
     image: "/rs=w_1023,cg_true (1).jpeg",
     category: "Waxing"
-  },
-  {
-    id: 24,
-    title: "Upper Lip Waxing",
-    duration: "10 mins",
-    price: "$10",
-    image: "/rs=w_1023,cg_true (2).jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 25,
-    title: "Chin Waxing",
-    duration: "10 mins",
-    price: "$10",
-    image: "/rs=w_1023,cg_true (3).jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 26,
-    title: "Full Face Waxing",
-    duration: "30 mins",
-    price: "$45",
-    image: "/rs=w_1023,cg_true (4).jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 27,
-    title: "Back Waxing",
-    duration: "45 mins",
-    price: "$65",
-    image: "/cr=w_1232hsa621.jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 28,
-    title: "Chest Waxing",
-    duration: "45 mins",
-    price: "$65",
-    image: "/cr=w_1240,h_620.jpeg",
-    category: "Waxing"
-  },
-  {
-    id: 29,
-    title: "Stomach Waxing",
-    duration: "30 mins",
-    price: "$45",
-    image: "/rs=w_1023,cg_true.jpeg",
-    category: "Waxing"
-  },
-  // Additional clinic cards
-  {
-    id: 30,
-    title: "Dermal Skin Clinic and Spa Guam",
-    duration: "1 hr",
-    price: "$90",
-    image: "/rs=w_1023,cg_true (1).jpeg",
-    category: "All Services"
   },
   {
     id: 31,
-    title: "Dermal Skin Clinic and Spa Guam",
-    duration: "1 hr",
-    price: "$90",
+    title: "Lip Waxing",
+    duration: "5 mins",
+    price: "$10",
     image: "/rs=w_1023,cg_true (2).jpeg",
-    category: "All Services"
+    category: "Waxing"
   },
   {
     id: 32,
-    title: "Dermal Skin Clinic and Spa Guam",
-    duration: "1 hr",
-    price: "$90",
+    title: "Half Arm Waxing",
+    duration: "15 mins",
+    price: "$40",
     image: "/rs=w_1023,cg_true (3).jpeg",
-    category: "All Services"
+    category: "Waxing"
   },
   {
     id: 33,
-    title: "Dermal Skin Clinic and Spa Guam",
-    duration: "1 hr",
-    price: "$90",
+    title: "Full Arm Waxing",
+    duration: "30 mins",
+    price: "$60",
     image: "/rs=w_1023,cg_true (4).jpeg",
-    category: "All Services"
+    category: "Waxing"
   },
   {
     id: 34,
-    title: "Dermal Skin Clinic and Spa Guam",
-    duration: "1 hr",
-    price: "$90",
+    title: "Chin Waxing",
+    duration: "5 mins",
+    price: "$12",
     image: "/cr=w_1232hsa621.jpeg",
-    category: "All Services"
+    category: "Waxing"
   },
   {
     id: 35,
-    title: "Dermal Skin Clinic and Spa Guam",
-    duration: "1 hr",
-    price: "$90",
+    title: "Neck Waxing",
+    duration: "15 mins",
+    price: "$30",
     image: "/cr=w_1240,h_620.jpeg",
-    category: "All Services"
+    category: "Waxing"
   },
   {
     id: 36,
-    title: "Dermal Skin Clinic and Spa Guam",
-    duration: "1 hr",
-    price: "$90",
+    title: "Lower Leg Waxing",
+    duration: "30 mins",
+    price: "$40",
     image: "/rs=w_1023,cg_true.jpeg",
-    category: "All Services"
+    category: "Waxing"
   },
   {
     id: 37,
-    title: "Dermal Skin Clinic and Spa Guam",
+    title: "Full Leg Waxing",
     duration: "1 hr",
-    price: "$90",
+    price: "$80",
     image: "/rs=w_1023,cg_true (1).jpeg",
-    category: "All Services"
+    category: "Waxing"
   },
   {
     id: 38,
-    title: "Dermal Skin Clinic and Spa Guam",
-    duration: "1 hr",
-    price: "$90",
+    title: "Full Face Waxing",
+    duration: "30 mins",
+    price: "$60",
     image: "/rs=w_1023,cg_true (2).jpeg",
-    category: "All Services"
+    category: "Waxing"
   },
   {
     id: 39,
-    title: "Dermal Skin Clinic and Spa Guam",
-    duration: "1 hr",
-    price: "$90",
+    title: "Bikini Waxing",
+    duration: "30 mins",
+    price: "$35",
     image: "/rs=w_1023,cg_true (3).jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 40,
+    title: "Underarm Waxing",
+    duration: "15 mins",
+    price: "$20",
+    image: "/rs=w_1023,cg_true (4).jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 41,
+    title: "Brazilian Wax ( Women )",
+    duration: "45 mins",
+    price: "$60",
+    image: "/cr=w_1232hsa621.jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 42,
+    title: "Brazilian Waxing ( Men)",
+    duration: "45 mins",
+    price: "$75",
+    image: "/cr=w_1240,h_620.jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 43,
+    title: "Chest Wax",
+    duration: "30 mins",
+    price: "$40",
+    image: "/rs=w_1023,cg_true.jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 44,
+    title: "Stomach Wax",
+    duration: "30 mins",
+    price: "$40",
+    image: "/rs=w_1023,cg_true (1).jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 45,
+    title: "Shoulders",
+    duration: "30 mins",
+    price: "$30",
+    image: "/rs=w_1023,cg_true (2).jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 46,
+    title: "Feet",
+    duration: "5 mins",
+    price: "$30",
+    image: "/rs=w_1023,cg_true (3).jpeg",
+    category: "Waxing"
+  },
+  // Special service for more options
+  {
+    id: 47,
+    title: "GO TO SERVICE LIST PAGE FOR MORE OPTIONS",
+    duration: "5 mins",
+    price: "$0.01",
+    image: "/rs=w_1023,cg_true (4).jpeg",
     category: "All Services"
   }
 ];
@@ -350,20 +416,20 @@ export default function Services() {
       <Navbar />
       
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         {/* Online Appointments Header */}
-        <div className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-black mb-6">ONLINE APPOINTMENTS</h1>
+        <div className="text-center mb-6 sm:mb-8">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-4 sm:mb-6">ONLINE APPOINTMENTS</h1>
           
           {/* Service Categories */}
-          <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-8">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-4 md:gap-6 mb-6 sm:mb-8">
             {serviceCategories.map((category, index) => (
               <button
                 key={index}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-4 py-2 text-sm md:text-base font-medium transition-colors rounded ${
+                className={`px-3 sm:px-4 py-2 text-xs sm:text-sm md:text-base font-medium transition-all duration-300 rounded ${
                   selectedCategory === category
-                    ? "bg-[#a9445b] text-white" 
+                    ? "bg-[#a9445b] text-white shadow-lg" 
                     : "text-gray-600 hover:text-[#a9445b] hover:bg-gray-100"
                 }`}
               >
@@ -374,26 +440,35 @@ export default function Services() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
           {filteredServices.map((service) => (
-            <div key={service.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <div key={service.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               {/* Service Image */}
-              <div className="relative h-48 md:h-56">
+              <div className="relative h-40 sm:h-48 md:h-56 bg-gray-200">
                 <Image
                   src={service.image}
                   alt={service.title}
                   fill
                   className="object-cover"
+                  onError={(e) => {
+                    // Fallback to a placeholder if image fails to load
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    target.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-300 flex items-center justify-center"><span class="text-gray-500 text-sm">Image not available</span></div>';
+                  }}
                 />
               </div>
               
               {/* Service Details */}
-              <div className="p-4">
-                <h3 className="text-lg font-semibold text-black mb-2">{service.title}</h3>
-                <div className="text-sm text-gray-600 mb-3">{service.duration} | {service.price}</div>
+              <div className="p-3 sm:p-4">
+                <h3 className="text-sm sm:text-base md:text-lg font-semibold text-black mb-2 line-clamp-2">{service.title}</h3>
+                <div className="text-xs sm:text-sm text-gray-600 mb-3">{service.duration} | {service.price}</div>
                 
                 {/* Book Now Button */}
-                <button className="w-full bg-[#fbb6c1] text-white font-bold py-2 px-4 rounded hover:bg-[#a9445b] transition-colors">
+                <button 
+                  onClick={() => window.open('https://api.leadconnectorhq.com/widget/form/tOfh6LGNpYUC0lJfJdSw?notrack=true', '_blank')}
+                  className="w-full bg-[#fbb6c1] text-white font-bold py-2 px-3 sm:px-4 rounded hover:bg-[#a9445b] transition-all duration-300 text-xs sm:text-sm transform hover:scale-105"
+                >
                   BOOK NOW!
                 </button>
               </div>
@@ -406,7 +481,7 @@ export default function Services() {
           <div className="text-center">
             <button 
               onClick={() => setShowAll(true)}
-              className="text-[#a9445b] font-semibold hover:underline"
+              className="text-[#a9445b] font-semibold hover:underline text-sm sm:text-base transition-all duration-300 hover:scale-105"
             >
               + See All
             </button>

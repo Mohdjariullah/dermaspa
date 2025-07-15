@@ -28,7 +28,9 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
   return (
     <header className={`${sticky ? "sticky top-0" : ""} w-full bg-white/90 shadow-md z-20 relative transition-all duration-300`}> 
       {/* Mobile: Phone number bar */}
-      <div className="block md:hidden w-full bg-[#fbb6c1] text-center py-2 font-bold text-lg tracking-wide text-black">(671) 647-7546</div>
+      <div className="block md:hidden w-full bg-[#fbb6c1] text-center py-2 font-bold text-lg tracking-wide text-black">
+        <a href="tel:6716477546" className="hover:text-[#a9445b] transition-colors">(671) 647-7546</a>
+      </div>
       <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-6 py-6 md:py-8 w-full">
         {/* Mobile Topbar */}
         <div className="flex flex-row w-full md:w-auto items-center justify-between md:justify-start">
@@ -76,7 +78,7 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
           </ul>
         </nav>
         <div className="hidden md:flex items-center gap-4 text-base font-semibold text-[#222] ml-4">
-          <span>(671) 647-7546</span>
+          <a href="tel:6716477546" className="hover:text-[#a9445b] transition-colors">(671) 647-7546</a>
           <span className="mx-2">|</span>
           <span className="cursor-pointer"><FaShoppingCart size={22} /></span>
           <span className="cursor-pointer"><FaUser size={22} /></span>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         {/* Example: Add a nav link to /contact if needed */}
         {/* <nav><Link href="/contact">Contact</Link></nav> */}
         {children}
+        <Analytics />
       </body>
     </html>
   );
