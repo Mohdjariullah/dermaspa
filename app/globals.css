@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -8,7 +9,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: 'Source Sans Pro', Arial, sans-serif;
   --font-mono: var(--font-geist-mono);
 }
 
@@ -22,5 +23,48 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+/* Custom for nav underline animation */
+.group:hover .group-hover\:w-full { width: 100% !important; }
+
+/* Improved nav underline animation */
+.nav-underline {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  transform: scaleX(0);
+  transform-origin: left;
+  opacity: 0;
+  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), opacity 0.2s;
+}
+.nav-link:hover .nav-underline,
+.nav-link:focus .nav-underline {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+.nav-link {
+  position: relative;
+  transition: color 0.2s cubic-bezier(0.4,0,0.2,1);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #000 !important;
+}
+
+@keyframes slide-in { from { transform: translateX(-100%); } to { transform: translateX(0); } }
+.animate-slide-in { animation: slide-in 0.3s cubic-bezier(0.4,0,0.2,1) both; }
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 18s linear infinite;
 }
