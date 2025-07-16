@@ -1,4 +1,15 @@
+"use client";
+import { useEffect, useState } from "react";
+
 export default function Footer() {
+  const [utmSource, setUtmSource] = useState("website");
+  const [year, setYear] = useState(2020);
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+    if (typeof window !== "undefined" && window.location && window.location.hostname) {
+      setUtmSource(window.location.hostname.replace(/^www\./, ""));
+    }
+  }, []);
   return (
     <footer className="bg-[#fbb6c1] py-6 sm:py-8 md:py-10 text-center text-[#222] px-4">
       <div className="max-w-4xl mx-auto">
@@ -9,10 +20,18 @@ export default function Footer() {
           <a href="tel:6714890327" className="hover:text-[#a9445b] transition-colors"> (671) 489-0327</a>
         </div>
         <div className="text-xs mb-2 leading-relaxed">
-          Copyright © 2020 Dermal Skin Clinic and Spa Guam<br/>All Rights Reserved.
+          Copyright © {year} Dermal Skin Clinic and Spa Guam<br/>All Rights Reserved.
         </div>
         <div className="text-xs">
-          Website Managed by <a href="https://aidaptics.com/" className="underline text-[#a9445b] hover:text-[#8a3a4a] transition-colors">AIdaptics</a>
+          <span>Website Managed by </span>
+          <a
+            href={`https://aidaptics.com/?utm_source=${encodeURIComponent(utmSource)}`}
+            className="underline text-[#a9445b] hover:text-[#8a3a4a] transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            AIdaptics
+          </a>
         </div>
       </div>
     </footer>

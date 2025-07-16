@@ -21,7 +21,7 @@ const allServices = [
     title: "Basic Facial (For Men & Women)",
     duration: "30 mins",
     price: "$65",
-    image: "/rs=w_1023,cg_true.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/3pNwnyj",
     category: "Esthetic Facials"
   },
   {
@@ -29,7 +29,7 @@ const allServices = [
     title: "Deep Cleansing Facial (for Men & Women)",
     duration: "1 hr",
     price: "$79",
-    image: "/rs=w_1023,cg_true (1).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/3pNwnyj",
     category: "Esthetic Facials"
   },
   {

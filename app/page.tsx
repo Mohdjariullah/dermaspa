@@ -1,9 +1,35 @@
-"use client";
-
 import Image from "next/image";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
+
+export const metadata = {
+  title: "Dermal Skin Clinic and Spa Guam | Home",
+  description: "Guam's best spa for facials, massage, waxing, and professional skincare. Book your appointment today!",
+  keywords: "Guam spa, facial, massage, waxing, skincare, esthetician, beauty, Dermal Skin Clinic, Spa Guam, Guam facials, Guam massage, Guam waxing",
+  openGraph: {
+    title: "Dermal Skin Clinic and Spa Guam | Home",
+    description: "Guam's best spa for facials, massage, waxing, and professional skincare. Book your appointment today!",
+    url: "https://dermalskincareandspaguam.com/",
+    siteName: "Dermal Skin Clinic and Spa Guam",
+    images: [
+      {
+        url: "/favicon.ico",
+        width: 1200,
+        height: 630,
+        alt: "Dermal Skin Clinic and Spa Guam logo"
+      }
+    ],
+    locale: "en_US",
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dermal Skin Clinic and Spa Guam | Home",
+    description: "Guam's best spa for facials, massage, waxing, and professional skincare. Book your appointment today!",
+    images: ["/favicon.ico"]
+  }
+};
 
 export default function Home() {
   return (
