@@ -1,7 +1,7 @@
 import Navbar from "../../components/common/Navbar";
 import Footer from "../../components/common/Footer";
 import Image from "next/image";
-import { FaStar, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FaStar, FaChevronLeft, FaChevronRight, FaGoogle } from "react-icons/fa";
 
 const reviews = [
   {
@@ -30,16 +30,21 @@ const reviews = [
 
 export default function Testimonials() {
   return (
-    <div className="min-h-screen flex flex-col bg-white" style={{ fontFamily: "'Source Sans Pro', Arial, sans-serif" }}>
+    <div className="min-h-screen flex flex-col bg-white">
       <Navbar />
-      <main className="flex-1 w-full flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 relative" style={{ background: "url('/public/testimonial-bg.jpg') center/cover no-repeat, #e9eaf6" }}>
-        <div className="w-full max-w-5xl mx-auto pt-8 sm:pt-12 pb-6 sm:pb-8">
+      <main className="flex-1 w-full flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 relative bg-[#e9eaf6]">
+        <div className="absolute inset-0 z-0">
+          <Image src="/contact-usbg.jpg" alt="Background" fill style={{objectFit:'cover',objectPosition:'center'}} className="opacity-30" />
+        </div>
+        <div className="relative z-10 w-full max-w-5xl mx-auto pt-8 sm:pt-12 pb-6 sm:pb-8">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-wider text-white mb-4 sm:mb-6 uppercase text-center" style={{ textShadow: '0 2px 8px #0002' }}>REVIEWS</h1>
           
           {/* Rating Section */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-6 sm:mb-8 text-center">
             <div className="flex items-center gap-2 sm:gap-3">
-              <Image src="/public/google-g.svg" alt="Google" width={24} height={24} className="sm:w-8 sm:h-8" />
+              <a href="https://maps.google.com/maps?cid=13251946762369740657" target="_blank" rel="noopener noreferrer">
+                <FaGoogle className="text-[#4285F4] text-2xl sm:text-3xl" style={{ filter: 'drop-shadow(0 0 2px #fff)' }} />
+              </a>
               <span className="text-2xl sm:text-3xl font-bold text-white">4.8</span>
               <div className="flex text-yellow-400 text-lg sm:text-xl">
                 {[...Array(5)].map((_, i) => <FaStar key={i} />)}

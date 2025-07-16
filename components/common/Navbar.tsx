@@ -87,7 +87,7 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
       {/* Mobile Sidebar Drawer */}
       {mobileOpen && (
         <>
-          <div className="fixed inset-0 bg-black bg-opacity-40 z-40" onClick={() => setMobileOpen(false)}></div>
+          <div className="fixed inset-0 bg-black bg-opacity-25 z-40" onClick={() => setMobileOpen(false)}></div>
           <aside className="fixed top-0 left-0 h-full w-72 max-w-[90vw] bg-white z-50 shadow-lg flex flex-col animate-slide-in">
             <div className="flex items-center justify-between px-4 py-4 border-b border-gray-200">
               <span className="text-xl font-bold tracking-wide text-[#a9445b] leading-tight">DERMAL<br/>SKIN CLINIC<br/>AND SPA GUAM</span>

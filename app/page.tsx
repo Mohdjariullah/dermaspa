@@ -12,13 +12,13 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative flex-1 flex flex-col items-center justify-center w-full">
         <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[480px] xl:h-[520px] relative flex items-center justify-center overflow-hidden">
-          <Image
+        <Image
             src="/home.jpg"
             alt="Smiling woman with hands on face"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
-            priority
-          />
+          priority
+        />
           <div className="absolute inset-0 bg-[#fbb6c1]/60" />
           <div className="absolute right-4 sm:right-8 md:right-16 lg:right-24 bottom-4 sm:bottom-8 md:bottom-16 flex flex-col items-center">
             <div className="bg-[#fbb6c1] rounded-full w-64 sm:w-80 md:w-96 lg:w-[320px] h-64 sm:h-80 md:h-96 lg:h-[320px] flex flex-col items-center justify-center shadow-xl p-4 sm:p-6">
@@ -38,17 +38,17 @@ export default function Home() {
       
       {/* About Us Section */}
       <section className="bg-white py-8 sm:py-12 md:py-16 flex flex-col items-center text-center px-4 sm:px-6">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 tracking-wider text-black">ABOUT US</h2>
-        <span className="text-xs tracking-widest text-[#a9445b] mb-4 sm:mb-6">COMMITTED TO QUALITY</span>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-2 tracking-wide text-black">ABOUT US</h2>
+        <span className="text-sm sm:text-base tracking-widest text-[#a9445b] mb-4 sm:mb-6 font-semibold">COMMITTED TO QUALITY</span>
         <div className="max-w-2xl mx-auto">
-          <div className="font-bold text-xs sm:text-sm md:text-base mb-2 sm:mb-4 text-black leading-relaxed">
+          <div className="font-bold text-sm sm:text-base md:text-lg mb-2 sm:mb-4 text-black leading-relaxed">
             PROFESSIONAL SKIN CARE GUAM | LICENSED ESTHETICIAN<br/>
             | CERTIFIED MASSAGE THERAPIST | LOCAL PRICES |<br/>
             GREAT DEALS<br/>
             EXPERT FACIALS | FREE CONSULTATION | AMAZING RESULTS<br/>
             | PROFESSIONAL PRODUCTS | GIFT CERTIFICATES
           </div>
-          <div className="text-xs sm:text-sm md:text-base text-gray-700 mb-4 sm:mb-6 leading-relaxed">
+          <div className="text-sm sm:text-base md:text-lg text-gray-700 mb-4 sm:mb-6 leading-relaxed">
             Face and Body relaxing treatment with the full benefits of rejuvenating the skin to become remarkably supple, vibrant, and youthful-looking. Enjoy excellent service powered by the state-of-the-art equipment and our well-trained Esthetician and Spa Therapist Team that we are providing just for you. We are dedicated to serving our existing customer and We would like to Welcome all future customers.<br/>
             Call Us Today! to Book your Skin Care and Spa Treatment.<br/>
             671-647-7546 | 671-489-0327 | Follow us on <a href="https://www.facebook.com/dermalskincareandspa" target="_blank" rel="noopener noreferrer" className="text-[#a9445b] hover:underline">Facebook</a> + <a href="https://www.instagram.com/dermalskincareandspaguam/" target="_blank" rel="noopener noreferrer" className="text-[#a9445b] hover:underline">Instagram</a>
@@ -58,16 +58,14 @@ export default function Home() {
       
       {/* Social Section */}
       <section className="bg-gray-100 py-6 sm:py-8 md:py-10 flex flex-col items-center">
-        <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4 tracking-wider">SOCIAL</h3>
-        <div className="overflow-hidden w-full max-w-xs sm:max-w-sm md:max-w-md">
-          <div className="flex gap-4 sm:gap-6 md:gap-8 animate-marquee whitespace-nowrap">
-            <a href="https://www.facebook.com/dermalskincareandspa" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl md:text-4xl text-blue-600 hover:text-blue-700 transition-colors"><FaFacebookF /></a>
-            <a href="https://www.instagram.com/dermalskincareandspaguam/" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl md:text-4xl text-pink-500 hover:text-pink-600 transition-colors"><FaInstagram /></a>
-            <a href="https://www.facebook.com/dermalskincareandspa" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl md:text-4xl text-blue-600 hover:text-blue-700 transition-colors"><FaFacebookF /></a>
-            <a href="https://www.instagram.com/dermalskincareandspaguam/" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl md:text-4xl text-pink-500 hover:text-pink-600 transition-colors"><FaInstagram /></a>
-            <a href="https://www.facebook.com/dermalskincareandspa" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl md:text-4xl text-blue-600 hover:text-blue-700 transition-colors"><FaFacebookF /></a>
-            <a href="https://www.instagram.com/dermalskincareandspaguam/" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl md:text-4xl text-pink-500 hover:text-pink-600 transition-colors"><FaInstagram /></a>
-          </div>
+        <h3 className="text-base sm:text-lg md:text-xl font-extrabold mb-3 sm:mb-4 tracking-widest text-[#a9445b] uppercase opacity-80">SOCIAL</h3>
+        <div className="flex gap-4 sm:gap-6 md:gap-8 justify-center items-center w-full max-w-xs sm:max-w-sm md:max-w-md">
+          <a href="https://www.facebook.com/dermalskincareandspa" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl md:text-4xl text-blue-600 hover:text-blue-700 transition-colors p-2 rounded-full bg-white shadow-md hover:scale-110 focus:outline-none focus:ring-2 focus:ring-[#a9445b]">
+            <FaFacebookF />
+          </a>
+          <a href="https://www.instagram.com/dermalskincareandspaguam/" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl md:text-4xl text-pink-500 hover:text-pink-600 transition-colors p-2 rounded-full bg-white shadow-md hover:scale-110 focus:outline-none focus:ring-2 focus:ring-[#a9445b]">
+            <FaInstagram />
+          </a>
         </div>
       </section>
       <Footer />

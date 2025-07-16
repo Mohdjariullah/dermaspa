@@ -12,7 +12,7 @@ export default function Footer() {
           Copyright © 2020 Dermal Skin Clinic and Spa Guam<br/>All Rights Reserved.
         </div>
         <div className="text-xs">
-          Website Managed by <a href="https://aidaptics.com/" className="underline text-[#a9445b] hover:text-[#8a3a4a] transition-colors">757 HelloMail</a>
+          Website Managed by <a href="https://aidaptics.com/" className="underline text-[#a9445b] hover:text-[#8a3a4a] transition-colors">AIdaptics</a>
         </div>
       </div>
     </footer>

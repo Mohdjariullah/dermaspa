@@ -4,37 +4,40 @@ import Footer from "@/components/common/Footer";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen flex flex-col bg-white">
+    <div className="min-h-screen flex flex-col bg-white relative">
       <Navbar/>
+      <div className="absolute inset-0 -z-10">
+        <img src="/contact-usbg.jpg" alt="Background" className="w-full h-full object-cover opacity-25" />
+      </div>
       <div className="h-[110px] w-full" />
       <main className="max-w-6xl mx-auto w-full flex flex-col items-center justify-center py-6 sm:py-8 px-4 sm:px-6">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-wider text-center mb-8 sm:mb-12 text-black" style={{fontFamily: 'inherit'}}>CONTACT US</h1>
         <div className="w-full flex flex-col lg:flex-row gap-8 sm:gap-12 lg:gap-24">
           {/* Left: Form */}
-          <form className="flex-1 flex flex-col gap-4 max-w-lg mx-auto lg:mx-0">
-            <span className="uppercase text-sm font-semibold tracking-widest mb-2 text-black">Get in touch!</span>
+          <form className="flex-1 flex flex-col gap-5 max-w-lg mx-auto lg:mx-0 bg-pink-50 rounded-3xl shadow-lg p-6 sm:p-8 border-2 border-pink-200">
+            <span className="uppercase text-base font-bold tracking-widest mb-2 text-[#a9445b] font-sans">Get in touch!</span>
             <input 
               type="text" 
               placeholder="Name" 
-              className="bg-gray-50 border border-gray-200 px-4 py-3 text-sm sm:text-base outline-none focus:border-[#a9445b] rounded transition-colors" 
+              className="bg-white border-2 border-pink-200 px-5 py-4 text-base rounded-full outline-none focus:border-[#a9445b] transition-colors font-sans placeholder-pink-300 text-[#a9445b] shadow-sm" 
             />
             <input 
               type="email" 
               placeholder="Email*" 
-              className="bg-gray-50 border border-gray-200 px-4 py-3 text-sm sm:text-base outline-none focus:border-[#a9445b] rounded transition-colors" 
+              className="bg-white border-2 border-pink-200 px-5 py-4 text-base rounded-full outline-none focus:border-[#a9445b] transition-colors font-sans placeholder-pink-300 text-[#a9445b] shadow-sm" 
             />
             <textarea 
               placeholder="Message" 
               rows={5} 
-              className="bg-gray-50 border border-gray-200 px-4 py-3 text-sm sm:text-base outline-none focus:border-[#a9445b] resize-none rounded transition-colors" 
+              className="bg-white border-2 border-pink-200 px-5 py-4 text-base rounded-2xl outline-none focus:border-[#a9445b] transition-colors font-sans placeholder-pink-300 text-[#a9445b] shadow-sm resize-none" 
             />
             <button 
               type="submit" 
-              className="mt-4 bg-[#fbb6c1] text-black font-semibold tracking-widest py-3 px-6 rounded transition hover:bg-[#a9445b] hover:text-white transform hover:scale-105"
+              className="mt-4 bg-[#fbb6c1] text-[#a9445b] font-bold tracking-widest py-3 px-8 rounded-full transition hover:bg-[#a9445b] hover:text-white transform hover:scale-105 text-lg shadow-md font-sans"
             >
               SEND
             </button>
-            <span className="text-xs text-gray-500 mt-2 leading-relaxed">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</span>
+            <span className="text-xs text-pink-400 mt-2 leading-relaxed font-sans">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</span>
           </form>
           {/* Right: Map */}
           <div className="flex-1 flex flex-col gap-4 max-w-lg mx-auto lg:mx-0">

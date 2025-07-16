@@ -52,7 +52,7 @@ export default function Specials() {
                     {link.name}
                   </a>
                 ))
-              ))}
+            ))}
             </div>
           </div>
         </div>
