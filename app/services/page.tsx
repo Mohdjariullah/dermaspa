@@ -419,15 +419,15 @@ export default function Services() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         {/* Online Appointments Header */}
         <div className="text-center mb-6 sm:mb-8">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-4 sm:mb-6">ONLINE APPOINTMENTS</h1>
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-4 sm:mb-6">ONLINE APPOINTMENTS</h1>
           
           {/* Service Categories */}
-          <div className="flex flex-wrap justify-center gap-2 sm:gap-4 md:gap-6 mb-6 sm:mb-8">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-6 mb-6 sm:mb-8">
             {serviceCategories.map((category, index) => (
               <button
                 key={index}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-3 sm:px-4 py-2 text-xs sm:text-sm md:text-base font-medium transition-all duration-300 rounded ${
+                className={`px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-xs sm:text-sm md:text-base font-medium transition-all duration-300 rounded ${
                   selectedCategory === category
                     ? "bg-[#a9445b] text-white shadow-lg" 
                     : "text-gray-600 hover:text-[#a9445b] hover:bg-gray-100"
@@ -439,12 +439,12 @@ export default function Services() {
           </div>
         </div>
 
-        {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
+        {/* Services Grid - Mobile First Large Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
           {filteredServices.map((service) => (
             <div key={service.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-              {/* Service Image */}
-              <div className="relative h-40 sm:h-48 md:h-56 bg-gray-200">
+              {/* Service Image - Much Larger on Mobile */}
+              <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 bg-gray-200">
                 <Image
                   src={service.image}
                   alt={service.title}
@@ -454,20 +454,20 @@ export default function Services() {
                     // Fallback to a placeholder if image fails to load
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
-                    target.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-300 flex items-center justify-center"><span class="text-gray-500 text-sm">Image not available</span></div>';
+                    target.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-300 flex items-center justify-center"><span class="text-gray-500 text-xs sm:text-sm">Image not available</span></div>';
                   }}
                 />
               </div>
               
-              {/* Service Details */}
-              <div className="p-3 sm:p-4">
-                <h3 className="text-sm sm:text-base md:text-lg font-semibold text-black mb-2 line-clamp-2">{service.title}</h3>
-                <div className="text-xs sm:text-sm text-gray-600 mb-3">{service.duration} | {service.price}</div>
+              {/* Service Details - Larger Text on Mobile */}
+              <div className="p-4 sm:p-6">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black mb-3 sm:mb-4 leading-tight">{service.title}</h3>
+                <div className="text-sm sm:text-base md:text-lg text-gray-600 mb-4 sm:mb-6">{service.duration} | {service.price}</div>
                 
-                {/* Book Now Button */}
+                {/* Book Now Button - Larger on Mobile */}
                 <button 
                   onClick={() => window.open('https://api.leadconnectorhq.com/widget/form/tOfh6LGNpYUC0lJfJdSw?notrack=true', '_blank')}
-                  className="w-full bg-[#fbb6c1] text-white font-bold py-2 px-3 sm:px-4 rounded hover:bg-[#a9445b] transition-all duration-300 text-xs sm:text-sm transform hover:scale-105"
+                  className="w-full bg-[#fbb6c1] text-black font-bold py-3 sm:py-4 px-4 sm:px-6 rounded hover:bg-[#a9445b] hover:text-white transition-all duration-300 text-sm sm:text-base md:text-lg transform hover:scale-105"
                 >
                   BOOK NOW!
                 </button>
