@@ -1,6 +1,7 @@
-import Navbar from "../../components/common/Navbar";
-import Footer from "../../components/common/Footer";
+"use client";
 import Image from "next/image";
+import Navbar from "@/components/common/Navbar";
+import Footer from "@/components/common/Footer";
 import { FaStar, FaChevronLeft, FaChevronRight, FaGoogle } from "react-icons/fa";
 
 const reviews = [

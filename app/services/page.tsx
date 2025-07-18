@@ -1,5 +1,4 @@
 "use client";
-
 import Footer from "@/components/common/Footer";
 import Navbar from "@/components/common/Navbar";
 import Image from "next/image";
@@ -21,7 +20,7 @@ const allServices = [
     title: "Basic Facial (For Men & Women)",
     duration: "30 mins",
     price: "$65",
-    image: "https://img1.wsimg.com/isteam/stock/3pNwnyj",
+    image: "/Basic-facial-men-women.jpg",
     category: "Esthetic Facials"
   },
   {
@@ -29,7 +28,7 @@ const allServices = [
     title: "Deep Cleansing Facial (for Men & Women)",
     duration: "1 hr",
     price: "$79",
-    image: "https://img1.wsimg.com/isteam/stock/3pNwnyj",
+    image: "/Deep Cleansing Facial (for Men & Women).jpg",
     category: "Esthetic Facials"
   },
   {
@@ -37,7 +36,7 @@ const allServices = [
     title: "Placenta | Collagen Facial",
     duration: "1 hr",
     price: "$90",
-    image: "/rs=w_1023,cg_true (2).jpeg",
+    image: "/Placenta-Collagen Facial.jpg",
     category: "Esthetic Facials"
   },
   {
@@ -45,7 +44,7 @@ const allServices = [
     title: "Whitening Kojic Facial",
     duration: "1 hr",
     price: "$90",
-    image: "/rs=w_1023,cg_true (3).jpeg",
+    image: "/services/whitening-kojic.jpg",
     category: "Esthetic Facials"
   },
   {
@@ -53,7 +52,7 @@ const allServices = [
     title: "Anti-Acne Facial (for Men & Women)",
     duration: "1 hr",
     price: "$90",
-    image: "/rs=w_1023,cg_true (4).jpeg",
+    image: "/services/anti-acne-facial.jpg",
     category: "Esthetic Facials"
   },
   {
@@ -61,7 +60,7 @@ const allServices = [
     title: "Microderm Facial",
     duration: "1 hr",
     price: "$99",
-    image: "/cr=w_1240,h_620.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/10776",
     category: "Esthetic Facials"
   },
   {
@@ -69,7 +68,7 @@ const allServices = [
     title: "Vitamin C Facial with Extreme Softness",
     duration: "1 hr",
     price: "$120",
-    image: "/cr=w_1232hsa621.jpeg",
+    image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/facial%20citrus.jpeg",
     category: "Esthetic Facials"
   },
   {
@@ -77,7 +76,7 @@ const allServices = [
     title: "Acne Vulgaris Facial",
     duration: "1 hr",
     price: "$120",
-    image: "/rs=w_1023,cg_true.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/y6rb02w",
     category: "Esthetic Facials"
   },
   {
@@ -85,7 +84,7 @@ const allServices = [
     title: "Dermal VIP Card $50 / Year",
     duration: "30 mins",
     price: "$50",
-    image: "/rs=w_1023,cg_true (1).jpeg",
+    image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/VIP%20Card_20240411_183834_0000.png",
     category: "Esthetic Facials"
   },
   // Face & Body Packages
@@ -94,7 +93,7 @@ const allServices = [
     title: "Balinese Body Massage + Basic Facial",
     duration: "1 hr 30 mins",
     price: "$130",
-    image: "/rs=w_1023,cg_true (2).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/3pNwnyj",
     category: "Face & Body Packages"
   },
   {
@@ -102,7 +101,7 @@ const allServices = [
     title: "Deep Tissue Body Massage + 3Face",
     duration: "2 hrs",
     price: "$180",
-    image: "/rs=w_1023,cg_true (3).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/2717",
     category: "Face & Body Packages"
   },
   {
@@ -110,15 +109,7 @@ const allServices = [
     title: "Hot Stone Body Massage + Microderm Facial",
     duration: "2 hrs 30 mins",
     price: "$200",
-    image: "/rs=w_1023,cg_true (4).jpeg",
-    category: "Face & Body Packages"
-  },
-  {
-    id: 13,
-    title: "Dermal VIP Card $50 / Year",
-    duration: "30 mins",
-    price: "$50",
-    image: "/cr=w_1232hsa621.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/jpJd47P",
     category: "Face & Body Packages"
   },
   // Body Massages
@@ -127,7 +118,7 @@ const allServices = [
     title: "Balinese Body Massage",
     duration: "1 hr",
     price: "$80",
-    image: "/cr=w_1240,h_620.jpeg",
+    image: "/services/Balinese Body Massage Basic Facial.jpg",
     category: "Body Massages"
   },
   {
@@ -135,7 +126,7 @@ const allServices = [
     title: "Maternity Massage",
     duration: "1 hr",
     price: "$85",
-    image: "/rs=w_1023,cg_true.jpeg",
+    image: "/services/maternity massage.jpg",
     category: "Body Massages"
   },
   {
@@ -143,7 +134,7 @@ const allServices = [
     title: "Stretching Body Massage",
     duration: "1 hr",
     price: "$85",
-    image: "/rs=w_1023,cg_true (1).jpeg",
+    image: "/services/Stretching Body Massage.jpg",
     category: "Body Massages"
   },
   {
@@ -151,7 +142,7 @@ const allServices = [
     title: "Deep Tissue Body Massage",
     duration: "1 hr",
     price: "$90",
-    image: "/rs=w_1023,cg_true (2).jpeg",
+    image: "/services/Deep Tissue Body Massage.jpg",
     category: "Body Massages"
   },
   {
@@ -159,7 +150,7 @@ const allServices = [
     title: "Hot Stone Massage",
     duration: "1 hr",
     price: "$90",
-    image: "/rs=w_1023,cg_true (3).jpeg",
+    image: "/services/hot-stone-massage.jpg",
     category: "Body Massages"
   },
   {
@@ -167,7 +158,7 @@ const allServices = [
     title: "Hot Stone Massage 90 Minutes",
     duration: "1 hr 30 mins",
     price: "$120",
-    image: "/rs=w_1023,cg_true (4).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/1754",
     category: "Body Massages"
   },
   // Body Booster
@@ -176,7 +167,7 @@ const allServices = [
     title: "Underarm Cleaning",
     duration: "30 mins",
     price: "$99",
-    image: "/cr=w_1232hsa621.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/R4ggkwa",
     category: "Body Booster"
   },
   {
@@ -192,7 +183,7 @@ const allServices = [
     title: "Chemical Peel (Body) Per Area",
     duration: "30 mins",
     price: "$85",
-    image: "/rs=w_1023,cg_true.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
     category: "Body Booster"
   },
   {
@@ -200,15 +191,7 @@ const allServices = [
     title: "Underarm or Inguinal Whitening",
     duration: "30 mins",
     price: "$150",
-    image: "/rs=w_1023,cg_true (1).jpeg",
-    category: "Body Booster"
-  },
-  {
-    id: 24,
-    title: "Vajacial + Brazilian Wax",
-    duration: "1 hr",
-    price: "$130",
-    image: "/rs=w_1023,cg_true (2).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/V866b57",
     category: "Body Booster"
   },
   {
@@ -216,7 +199,7 @@ const allServices = [
     title: "Basic Vajacial Cleaning + Brazilian Wax",
     duration: "30 mins",
     price: "$90",
-    image: "/rs=w_1023,cg_true (3).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
     category: "Body Booster"
   },
   {
@@ -224,7 +207,7 @@ const allServices = [
     title: "Microdermabrasion (Body) Per Area",
     duration: "30 mins",
     price: "$85",
-    image: "/rs=w_1023,cg_true (4).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/RyAeNQo",
     category: "Body Booster"
   },
   {
@@ -232,7 +215,7 @@ const allServices = [
     title: "Deep Moisturizing Body Treatment",
     duration: "30 mins",
     price: "$65",
-    image: "/cr=w_1232hsa621.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/7862",
     category: "Body Booster"
   },
   {
@@ -240,7 +223,7 @@ const allServices = [
     title: "Dead Sea Salt Body Scrub + Deep Moisturizing",
     duration: "30 mins",
     price: "$65",
-    image: "/cr=w_1240,h_620.jpeg",
+    image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/massage.jpeg",
     category: "Body Booster"
   },
   {
@@ -248,7 +231,7 @@ const allServices = [
     title: "Mud Mask Body Wrap + Deep Moisturizing Body Treatment",
     duration: "30 mins",
     price: "$65",
-    image: "/rs=w_1023,cg_true.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/gYN7y1G",
     category: "Body Booster"
   },
   // Waxing Services
@@ -257,7 +240,7 @@ const allServices = [
     title: "Eyebrow Waxing",
     duration: "15 mins",
     price: "$20",
-    image: "/rs=w_1023,cg_true (1).jpeg",
+    image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/eyebrows.jpeg",
     category: "Waxing"
   },
   {
@@ -265,7 +248,7 @@ const allServices = [
     title: "Lip Waxing",
     duration: "5 mins",
     price: "$10",
-    image: "/rs=w_1023,cg_true (2).jpeg",
+    image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/lip%20waxing.jpeg",
     category: "Waxing"
   },
   {
@@ -273,7 +256,7 @@ const allServices = [
     title: "Half Arm Waxing",
     duration: "15 mins",
     price: "$40",
-    image: "/rs=w_1023,cg_true (3).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/nybdkoA",
     category: "Waxing"
   },
   {
@@ -416,13 +399,12 @@ export default function Services() {
       <Navbar />
       
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+      <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         {/* Online Appointments Header */}
-        <div className="text-center mb-6 sm:mb-8">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-4 sm:mb-6">ONLINE APPOINTMENTS</h1>
-          
+        <div className="text-center mb-10 sm:mb-12">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-4 sm:mb-6" style={{ fontFamily: 'Fjalla One, arial, sans-serif', fontWeight: 400, color: 'rgb(27,27,27)', fontSize: '36px', lineHeight: '50px' }}>ONLINE APPOINTMENTS</h1>
           {/* Service Categories */}
-          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-6 mb-6 sm:mb-8">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-6 mb-10 sm:mb-12">
             {serviceCategories.map((category, index) => (
               <button
                 key={index}
@@ -439,35 +421,31 @@ export default function Services() {
           </div>
         </div>
 
-        {/* Services Grid - Mobile First Large Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
+        {/* Services Grid - Clean, Centered, Compact Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
           {filteredServices.map((service) => (
-            <div key={service.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-              {/* Service Image - Much Larger on Mobile */}
-              <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 bg-gray-200">
+            <div key={service.id} className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden w-[300px] mx-auto">
+              {/* Service Image - Fixed Height */}
+              <div className="relative w-full h-[220px] bg-gray-200">
                 <Image
                   src={service.image}
                   alt={service.title}
                   fill
                   className="object-cover"
-                  onError={(e) => {
-                    // Fallback to a placeholder if image fails to load
-                    const target = e.target as HTMLImageElement;
-                    target.style.display = 'none';
-                    target.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-300 flex items-center justify-center"><span class="text-gray-500 text-xs sm:text-sm">Image not available</span></div>';
-                  }}
                 />
               </div>
-              
-              {/* Service Details - Larger Text on Mobile */}
-              <div className="p-4 sm:p-6">
-                <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black mb-3 sm:mb-4 leading-tight">{service.title}</h3>
-                <div className="text-sm sm:text-base md:text-lg text-gray-600 mb-4 sm:mb-6">{service.duration} | {service.price}</div>
-                
-                {/* Book Now Button - Larger on Mobile */}
+              {/* Service Details - Minimal Padding, Small Font */}
+              <div className="p-3">
+                <h3 className="text-sm font-semibold text-black mb-1 leading-tight" style={{ fontFamily: 'Source Sans Pro, arial, sans-serif', fontWeight: 400 }}>
+                  {service.title}
+                </h3>
+                <div className="text-xs text-gray-600 mb-2" style={{ fontFamily: 'Source Sans Pro, arial, sans-serif', fontWeight: 400 }}>
+                  {service.duration} | {service.price}
+                </div>
+                {/* Book Now Button - Small, Clean */}
                 <button 
                   onClick={() => window.open('https://api.leadconnectorhq.com/widget/form/tOfh6LGNpYUC0lJfJdSw?notrack=true', '_blank')}
-                  className="w-full bg-[#fbb6c1] text-black font-bold py-3 sm:py-4 px-4 sm:px-6 rounded hover:bg-[#a9445b] hover:text-white transition-all duration-300 text-sm sm:text-base md:text-lg transform hover:scale-105"
+                  className="w-full bg-[#fbb6c1] text-black font-bold py-2 px-2 rounded hover:bg-[#a9445b] hover:text-white transition-all duration-300 text-xs"
                 >
                   BOOK NOW!
                 </button>

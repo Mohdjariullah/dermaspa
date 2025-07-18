@@ -42,7 +42,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className="antialiased" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
-        <CommentInjector />
+        {/* <CommentInjector /> */}
         {children}
         <Analytics />
       </body>

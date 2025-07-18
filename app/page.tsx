@@ -1,35 +1,8 @@
+"use client";
 import Image from "next/image";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import Navbar from "../components/common/Navbar";
-import Footer from "../components/common/Footer";
-
-export const metadata = {
-  title: "Dermal Skin Clinic and Spa Guam | Home",
-  description: "Guam's best spa for facials, massage, waxing, and professional skincare. Book your appointment today!",
-  keywords: "Guam spa, facial, massage, waxing, skincare, esthetician, beauty, Dermal Skin Clinic, Spa Guam, Guam facials, Guam massage, Guam waxing",
-  openGraph: {
-    title: "Dermal Skin Clinic and Spa Guam | Home",
-    description: "Guam's best spa for facials, massage, waxing, and professional skincare. Book your appointment today!",
-    url: "https://dermalskincareandspaguam.com/",
-    siteName: "Dermal Skin Clinic and Spa Guam",
-    images: [
-      {
-        url: "/favicon.ico",
-        width: 1200,
-        height: 630,
-        alt: "Dermal Skin Clinic and Spa Guam logo"
-      }
-    ],
-    locale: "en_US",
-    type: "website"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Dermal Skin Clinic and Spa Guam | Home",
-    description: "Guam's best spa for facials, massage, waxing, and professional skincare. Book your appointment today!",
-    images: ["/favicon.ico"]
-  }
-};
+import Navbar from "@/components/common/Navbar";
+import Footer from "@/components/common/Footer";
 
 export default function Home() {
   return (
@@ -49,7 +22,7 @@ export default function Home() {
           <div className="absolute right-4 sm:right-8 md:right-16 lg:right-24 bottom-4 sm:bottom-8 md:bottom-16 flex flex-col items-center">
             <div className="bg-[#fbb6c1] rounded-full w-64 sm:w-80 md:w-96 lg:w-[320px] h-64 sm:h-80 md:h-96 lg:h-[320px] flex flex-col items-center justify-center shadow-xl p-4 sm:p-6">
               <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-[#a9445b] text-center mb-3 sm:mb-4 leading-tight">
-                HAPPY SKIN!<br/>HAPPY YOU!
+                HAPPY SKIN!<br/>HAPPY YOU
               </span>
               <button 
                 onClick={() => window.location.href = '/services'}

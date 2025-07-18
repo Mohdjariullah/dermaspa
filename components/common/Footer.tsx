@@ -22,17 +22,6 @@ export default function Footer() {
         <div className="text-xs mb-2 leading-relaxed">
           Copyright © {year} Dermal Skin Clinic and Spa Guam<br/>All Rights Reserved.
         </div>
-        <div className="text-xs">
-          <span>Website Managed by </span>
-          <a
-            href={`https://aidaptics.com/?utm_source=${encodeURIComponent(utmSource)}`}
-            className="underline text-[#a9445b] hover:text-[#8a3a4a] transition-colors"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            AIdaptics
-          </a>
-        </div>
       </div>
     </footer>
   );

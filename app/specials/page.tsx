@@ -1,6 +1,7 @@
-import Navbar from "../../components/common/Navbar";
-import Footer from "../../components/common/Footer";
+"use client";
 import Image from "next/image";
+import Navbar from "@/components/common/Navbar";
+import Footer from "@/components/common/Footer";
 
 const socialLinks = [
   { name: "FACEBOOK", href: "https://www.facebook.com/dermalskincareandspa" },

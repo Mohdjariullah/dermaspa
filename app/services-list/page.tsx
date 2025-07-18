@@ -1,6 +1,7 @@
+"use client";
+import Footer from "@/components/common/Footer";
+import Navbar from "@/components/common/Navbar";
 import Image from "next/image";
-import Navbar from "../../components/common/Navbar";
-import Footer from "../../components/common/Footer";
 
 export default function ServicesList() {
   return (
@@ -64,6 +65,71 @@ export default function ServicesList() {
         <div className="w-full max-w-4xl flex flex-col gap-6 sm:gap-8 items-center">
           <div className="w-full max-w-3xl">
             <Image src="/rs=w_1023,cg_true (4).jpeg" alt="Face Packages" width={800} height={600} className="rounded-lg shadow-lg border border-pink-200 w-full h-auto" />
+          </div>
+        </div>
+      </section>
+
+      {/* Waxing Services Section */}
+      <section className="w-full flex flex-col items-center py-8 sm:py-12 px-4 sm:px-6 bg-white">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#a9445b] mb-2 uppercase tracking-wide text-center">Waxing Services</h2>
+        <span className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6 text-center">CALL TO BOOK THESE SERVICES</span>
+        <div className="w-full max-w-5xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          {/* Waxing Service Items */}
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/eyebrows.jpeg" alt="Lip Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Lip Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/nybdkoA" alt="Half Arms Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Half Arms Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/R4ggkwa" alt="Full Arm Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Full Arm Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/waN1p7x" alt="Neck Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Neck Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/5lKWWEw" alt="Chin Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Chin Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/42117/:/rs=h:%7B640%7D" alt="Lower Leg Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Lower Leg Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/8973" alt="Full Leg Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Full Leg Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/1310" alt="Full Face Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Full Face Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/gAqxgK1" alt="Bikini Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Bikini Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/gAqxgK1" alt="Underarm Waxing" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Underarm Waxing</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/gAqxgK1" alt="Brazilian Wax (Women)" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Brazilian Wax (Women)</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/6yaEPlz" alt="Brazilian Waxing (Men)" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Brazilian Waxing (Men)</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/6yaEPlz" alt="Chest Wax" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Chest Wax</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="https://img1.wsimg.com/isteam/stock/gAqxgK1/:/rs=h:%7B640%7D" alt="Stomach Wax" className="rounded-lg shadow-lg w-48 h-48 object-cover mb-2 border border-pink-200" />
+            <span className="font-semibold text-[#a9445b] text-center">Stomach Wax</span>
           </div>
         </div>
       </section>
