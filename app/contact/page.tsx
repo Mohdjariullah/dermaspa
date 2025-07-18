@@ -5,17 +5,17 @@ import Footer from "@/components/common/Footer";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen flex flex-col bg-white relative">
+    <div className="min-h-screen flex flex-col bg-white relative font-sans">
       <Navbar/>
       <div className="absolute inset-0 -z-10">
         <img src="/contact-usbg.jpg" alt="Background" className="w-full h-full object-cover opacity-25" />
       </div>
       <div className="h-[110px] w-full" />
       <main className="max-w-6xl mx-auto w-full flex flex-col items-center justify-center py-6 sm:py-8 px-4 sm:px-6">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-wider text-center mb-8 sm:mb-12 text-black" style={{fontFamily: 'inherit'}}>CONTACT US</h1>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-wider text-center mb-8 sm:mb-12 text-black font-sans">CONTACT US</h1>
         <div className="w-full flex flex-col lg:flex-row gap-8 sm:gap-12 lg:gap-24">
           {/* Left: Form */}
-          <form className="flex-1 flex flex-col gap-5 max-w-lg mx-auto lg:mx-0 bg-pink-50 rounded-3xl shadow-lg p-6 sm:p-8 border-2 border-pink-200">
+          <form className="flex-1 flex flex-col gap-5 max-w-lg mx-auto lg:mx-0 bg-pink-50 rounded-3xl shadow-lg p-6 sm:p-8 border-2 border-pink-200 font-sans">
             <span className="uppercase text-base font-bold tracking-widest mb-2 text-[#a9445b] font-sans">Get in touch!</span>
             <input 
               type="text" 
@@ -57,12 +57,12 @@ export default function Contact() {
           </div>
         </div>
         {/* Info text and clinic name below form/map */}
-        <div className="w-full flex flex-col items-center justify-center mt-8 sm:mt-10 mb-8 px-4">
-          <span className="uppercase text-xs font-semibold tracking-widest mb-2 text-black">Questions or Comments?</span>
-          <p className="text-gray-600 text-sm sm:text-base mb-4 text-center max-w-2xl text-black leading-relaxed">
+        <div className="w-full flex flex-col items-center justify-center mt-8 sm:mt-10 mb-8 px-4 font-sans">
+          <span className="uppercase text-xs font-semibold tracking-widest mb-2 text-black font-sans">Questions or Comments?</span>
+          <p className="text-gray-600 text-sm sm:text-base mb-4 text-center max-w-2xl text-black leading-relaxed font-sans">
             Do you have questions about our products? Do you need help in designing your skin care regimen? Drop us a line, and we&apos;ll get back to you as soon as possible.
           </p>
-          <span className="uppercase text-xs font-semibold tracking-widest mt-2 mb-2 text-black">DERMAL SKIN CLINIC AND SPA GUAM</span>
+          <span className="uppercase text-xs font-semibold tracking-widest mt-2 mb-2 text-black font-sans">DERMAL SKIN CLINIC AND SPA GUAM</span>
         </div>
       </main>
       <Footer />
