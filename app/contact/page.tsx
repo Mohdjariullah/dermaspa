@@ -3,34 +3,6 @@ import React from "react";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
 
-export const metadata = {
-  title: "Contact Us | Dermal Skin Clinic and Spa Guam",
-  description: "Contact Dermal Skin Clinic and Spa Guam for appointments, questions, and directions. We're here to help you look and feel your best!",
-  keywords: "Guam spa contact, Guam facial contact, Guam massage contact, Guam waxing contact, Dermal Skin Clinic contact, Spa Guam contact, Guam esthetician contact",
-  openGraph: {
-    title: "Contact Us | Dermal Skin Clinic and Spa Guam",
-    description: "Contact Dermal Skin Clinic and Spa Guam for appointments, questions, and directions. We're here to help you look and feel your best!",
-    url: "https://dermalskincareandspaguam.com/contact",
-    siteName: "Dermal Skin Clinic and Spa Guam",
-    images: [
-      {
-        url: "/favicon.ico",
-        width: 1200,
-        height: 630,
-        alt: "Dermal Skin Clinic and Spa Guam logo"
-      }
-    ],
-    locale: "en_US",
-    type: "website"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Contact Us | Dermal Skin Clinic and Spa Guam",
-    description: "Contact Dermal Skin Clinic and Spa Guam for appointments, questions, and directions. We're here to help you look and feel your best!",
-    images: ["/favicon.ico"]
-  }
-};
-
 export default function Contact() {
   return (
     <div className="min-h-screen flex flex-col bg-white relative">

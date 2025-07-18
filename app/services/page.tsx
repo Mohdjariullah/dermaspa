@@ -264,7 +264,7 @@ const allServices = [
     title: "Full Arm Waxing",
     duration: "30 mins",
     price: "$60",
-    image: "/rs=w_1023,cg_true (4).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/R4ggkwa",
     category: "Waxing"
   },
   {
