@@ -352,7 +352,7 @@ const allServices = [
     title: "Stomach Wax",
     duration: "30 mins",
     price: "$40",
-    image: "/rs=w_1023,cg_true (1).jpeg",
+    image: "https://purebeautyathome.com/wp-content/uploads/2024/04/1708362164328-e1dfa2.webp",
     category: "Waxing"
   },
   {
@@ -360,7 +360,7 @@ const allServices = [
     title: "Shoulders",
     duration: "30 mins",
     price: "$30",
-    image: "/rs=w_1023,cg_true (2).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
     category: "Waxing"
   },
   {
@@ -368,7 +368,7 @@ const allServices = [
     title: "Feet",
     duration: "5 mins",
     price: "$30",
-    image: "/rs=w_1023,cg_true (3).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
     category: "Waxing"
   },
   // Special service for more options
@@ -377,7 +377,7 @@ const allServices = [
     title: "GO TO SERVICE LIST PAGE FOR MORE OPTIONS",
     duration: "5 mins",
     price: "$0.01",
-    image: "/rs=w_1023,cg_true (4).jpeg",
+    image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/Face%20%26%20Body_20240619_172245_0002.png",
     category: "All Services"
   }
 ];
