@@ -288,7 +288,7 @@ const allServices = [
     title: "Lower Leg Waxing",
     duration: "30 mins",
     price: "$40",
-    image: "/rs=w_1023,cg_true.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/42117/:/rs=h:%7B640%7D",
     category: "Waxing"
   },
   {
@@ -296,7 +296,7 @@ const allServices = [
     title: "Full Leg Waxing",
     duration: "1 hr",
     price: "$80",
-    image: "/rs=w_1023,cg_true (1).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/8973",
     category: "Waxing"
   },
   {
@@ -304,7 +304,7 @@ const allServices = [
     title: "Full Face Waxing",
     duration: "30 mins",
     price: "$60",
-    image: "/rs=w_1023,cg_true (2).jpeg",
+    image: "https://remedytupelo.com/storage/2022/11/10-Things-To-Know-Before-Getting-Your-Facial-Waxing-1024x683.jpeg",
     category: "Waxing"
   },
   {
@@ -312,7 +312,7 @@ const allServices = [
     title: "Bikini Waxing",
     duration: "30 mins",
     price: "$35",
-    image: "/rs=w_1023,cg_true (3).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
     category: "Waxing"
   },
   {
@@ -320,7 +320,7 @@ const allServices = [
     title: "Underarm Waxing",
     duration: "15 mins",
     price: "$20",
-    image: "/rs=w_1023,cg_true (4).jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/R4ggkwa",
     category: "Waxing"
   },
   {
@@ -328,7 +328,7 @@ const allServices = [
     title: "Brazilian Wax ( Women )",
     duration: "45 mins",
     price: "$60",
-    image: "/cr=w_1232hsa621.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
     category: "Waxing"
   },
   {
@@ -336,7 +336,7 @@ const allServices = [
     title: "Brazilian Waxing ( Men)",
     duration: "45 mins",
     price: "$75",
-    image: "/cr=w_1240,h_620.jpeg",
+    image: "https://img1.wsimg.com/isteam/stock/6yaEPlz",
     category: "Waxing"
   },
   {
@@ -344,7 +344,7 @@ const allServices = [
     title: "Chest Wax",
     duration: "30 mins",
     price: "$40",
-    image: "/rs=w_1023,cg_true.jpeg",
+    image: "https://thumbs.dreamstime.com/b/woman-waxing-man-s-chest-wax-strip-close-up-103333434.jpg",
     category: "Waxing"
   },
   {
