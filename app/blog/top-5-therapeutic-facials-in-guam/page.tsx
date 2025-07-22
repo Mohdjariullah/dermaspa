@@ -82,8 +82,8 @@ export default async function TherapeuticFacialsBlog() {
                 <h1 className="text-4xl font-extrabold text-[#a9445b] mb-8 leading-tight">Top 5 Therapeutic Facials in Guam for Different Skin Concerns</h1>
                 <p className="text-gray-600 text-base mb-8" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>By Dermal Skin Care Spa | {new Date().toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
                 <section className="prose prose-pink max-w-none text-gray-800 prose-h2:mt-12 prose-h2:mb-6 prose-h3:mt-10 prose-h3:mb-4 prose-ul:my-6 prose-ol:my-6 prose-li:my-2 prose-img:rounded-xl prose-img:shadow prose-img:my-10 prose-blockquote:my-8 prose-blockquote:bg-[#fbb6c1]/20 prose-blockquote:p-4 prose-blockquote:rounded-xl prose-blockquote:border-l-4 prose-blockquote:border-[#a9445b]" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>
-                  <p>Living in Guam's tropical paradise comes with unique skincare challenges. The combination of year-round humidity, intense UV exposure, and environmental factors can create various skin concerns that require targeted therapeutic treatments.</p>
-                  <p>At Dermal Skin Care Spa, we understand that one size doesn't fit all when it comes to facial treatments. That's why we've developed specialized therapeutic facials designed to address specific skin issues. This comprehensive guide explores the top 5 therapeutic facials in Guam, helping you choose the perfect treatment for your individual skin concerns.</p>
+                  <p>Living in Guam&apos;s tropical paradise comes with unique skincare challenges. The combination of year-round humidity, intense UV exposure, and environmental factors can create various skin concerns that require targeted therapeutic treatments.</p>
+                  <p>At Dermal Skin Care Spa, we understand that one size doesn&apos;t fit all when it comes to facial treatments. That&apos;s why we&apos;ve developed specialized therapeutic facials designed to address specific skin issues. This comprehensive guide explores the top 5 therapeutic facials in Guam, helping you choose the perfect treatment for your individual skin concerns.</p>
                   <Image src="/services/Deep Cleansing Facial (for Men & Women).jpg" alt="Facial cleansing" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h2>Understanding Therapeutic Facials vs. Regular Facials</h2>
                   <ul>
@@ -93,12 +93,12 @@ export default async function TherapeuticFacialsBlog() {
                     <li><strong>Progressive:</strong> Building upon previous treatments for cumulative results</li>
                     <li><strong>Science-based:</strong> Incorporating proven ingredients and methodologies</li>
                   </ul>
-                  <p>Each therapeutic facial begins with a thorough skin analysis to ensure the treatment perfectly matches your skin's needs.</p>
+                  <p>Each therapeutic facial begins with a thorough skin analysis to ensure the treatment perfectly matches your skin&apos;s needs.</p>
                   <Image src="/services/Placenta-Collagen Facial.jpg" alt="Skin analysis" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h2>1. Anti-Acne Facial: Your Solution for Clear, Healthy Skin</h2>
                   <p><strong>Price:</strong> Starting from $60<br/><strong>Best for:</strong> Active acne, blackheads, clogged pores, oily skin<br/><strong>Treatment duration:</strong> 60-75 minutes</p>
                   <h3>The Acne Challenge in Guam</h3>
-                  <p>Guam's humid climate creates the perfect storm for acne-prone skin. High humidity levels increase oil production, while environmental pollutants and sweat can clog pores. The Anti-Acne Facial at Dermal Skin Care Spa specifically targets these local challenges.</p>
+                  <p>Guam&apos;s humid climate creates the perfect storm for acne-prone skin. High humidity levels increase oil production, while environmental pollutants and sweat can clog pores. The Anti-Acne Facial at Dermal Skin Care Spa specifically targets these local challenges.</p>
                   <Image src="/services/anti-acne-facial.jpg" alt="Anti-acne facial" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h4>What Makes This Facial Therapeutic</h4>
                   <ul>
@@ -199,9 +199,10 @@ export default async function TherapeuticFacialsBlog() {
                   <h2>4. Glassy Skin Facial: Achieving the Coveted Korean Glass Skin Look</h2>
                   <p><strong>Price:</strong> $90-110<br/><strong>Best for:</strong> Dull skin, dehydration, texture issues, those seeking luminous skin<br/><strong>Treatment duration:</strong> 75-90 minutes</p>
                   <h3>The Glass Skin Phenomenon</h3>
-                  <p>The Korean beauty trend of "glass skin" – skin so smooth and luminous it resembles glass – has taken the skincare world by storm. This therapeutic facial in Guam brings this coveted look to island residents through intensive hydration and skin refinement techniques.</p>
+                  <p>The Korean beauty trend of &quot;glass skin&quot; – skin so smooth and luminous it resembles glass – has taken the skincare world by storm. This therapeutic facial in Guam brings this coveted look to island residents through intensive hydration and skin refinement techniques.</p>
                   <Image src="/services/Stretching Body Massage.jpg" alt="Glassy skin facial" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h4>Core Elements of the Glassy Skin Treatment</h4>
+
                   <ul>
                     <li>Multi-Layer Hydration</li>
                     <li>Gentle Resurfacing</li>
@@ -218,7 +219,7 @@ export default async function TherapeuticFacialsBlog() {
                     <li>Serum Cocktailing</li>
                     <li>Occlusive Seal</li>
                   </ol>
-                  <h4>Maintaining Glass Skin in Guam's Climate</h4>
+                  <h4>Maintaining Glass Skin in Guam&apos;s Climate</h4>
                   <ul>
                     <li>Morning hydration routine before sun exposure</li>
                     <li>Midday misting to maintain moisture</li>
@@ -264,7 +265,7 @@ export default async function TherapeuticFacialsBlog() {
                     <li>Rough texture and enlarged pores</li>
                     <li>Loss of elasticity and firmness</li>
                   </ul>
-                  <h4>Investment in Your Skin's Future</h4>
+                  <h4>Investment in Your Skin&apos;s Future</h4>
                   <ul>
                     <li>Professional-grade transformation</li>
                     <li>Long-lasting improvements</li>
@@ -329,15 +330,15 @@ export default async function TherapeuticFacialsBlog() {
                     <li>Comprehensive Care</li>
                   </ul>
                   <h2>Book Your Therapeutic Facial Today</h2>
-                  <p>Don't let skin concerns hold you back from feeling confident and radiant. Whether you're battling acne, fighting pigmentation, or seeking that glass skin glow, Dermal Skin Care Spa has the perfect therapeutic facial for you.</p>
+                  <p>Don&apos;t let skin concerns hold you back from feeling confident and radiant. Whether you&apos;re battling acne, fighting pigmentation, or seeking that glass skin glow, Dermal Skin Care Spa has the perfect therapeutic facial for you.</p>
                   <p>Take the first step toward transformed skin:</p>
                   <ul>
                     <li>Visit <a href="https://www.dermalskincareandspaguam.com" className="text-[#a9445b] underline" target="_blank" rel="noopener noreferrer">www.dermalskincareandspaguam.com</a></li>
                     <li>Call for a consultation</li>
                     <li>Message via WhatsApp to discuss your concerns</li>
                   </ul>
-                  <p>Your journey to healthy, beautiful skin begins with choosing the right therapeutic facial. Let the experts at Dermal Skin Care Spa guide you to the treatment that will deliver the results you've been seeking.</p>
-                  <p>Serving clients throughout Guam from Tumon to Hagåtña, Dermal Skin Care Spa combines advanced technology, professional expertise, and personalized care to deliver exceptional therapeutic facial results. Discover why we're the trusted choice for therapeutic skincare in Guam.</p>
+                  <p>Your journey to healthy, beautiful skin begins with choosing the right therapeutic facial. Let the experts at Dermal Skin Care Spa guide you to the treatment that will deliver the results you&apos;ve been seeking.</p>
+                  <p>Serving clients throughout Guam from Tumon to Hagåtña, Dermal Skin Care Spa combines advanced technology, professional expertise, and personalized care to deliver exceptional therapeutic facial results. Discover why we&apos;re the trusted choice for therapeutic skincare in Guam.</p>
                 </section>
                 {/* Calm CTA Card at the bottom */}
                 <div className="mt-16 bg-[#fbb6c1]/20 border border-pink-100 rounded-2xl shadow-lg p-10 flex flex-col items-center text-center max-w-3xl mx-auto">
@@ -347,7 +348,7 @@ export default async function TherapeuticFacialsBlog() {
                     <li>Call for expert consultation</li>
                     <li>WhatsApp for quick questions</li>
                   </ul>
-                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam's trusted med spa destination.</p>
+                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam&apos;s trusted med spa destination.</p>
                 </div>
               </div>
             </article>

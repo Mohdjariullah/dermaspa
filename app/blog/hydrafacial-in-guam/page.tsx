@@ -91,7 +91,7 @@ export default async function HydraFacialBlog() {
                 <p className="text-gray-600 text-base mb-8" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>By Dermal Skin Care Spa | {new Date().toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
                 <section className="prose prose-pink max-w-none text-gray-800 prose-h2:mt-12 prose-h2:mb-6 prose-h3:mt-10 prose-h3:mb-4 prose-ul:my-6 prose-ol:my-6 prose-li:my-2 prose-img:rounded-xl prose-img:shadow prose-img:my-10 prose-blockquote:my-8 prose-blockquote:bg-[#fbb6c1]/20 prose-blockquote:p-4 prose-blockquote:rounded-xl prose-blockquote:border-l-4 prose-blockquote:border-[#a9445b]" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>
                   <p className="mb-8">The HydraFacial has taken the beauty world by storm, becoming the go-to treatment for celebrities, influencers, and skincare enthusiasts worldwide.</p>
-                  <p className="mb-8">Now, this revolutionary facial treatment is available right here in Guam at Dermal Skin Care Spa. If you're curious about what makes HydraFacial the most sought-after facial in Guam and beyond, this comprehensive guide will answer all your questions and help you understand why this treatment has become a game-changer in professional skincare.</p>
+                  <p className="mb-8">Now, this revolutionary facial treatment is available right here in Guam at Dermal Skin Care Spa. If you&apos;re curious about what makes HydraFacial the most sought-after facial in Guam and beyond, this comprehensive guide will answer all your questions and help you understand why this treatment has become a game-changer in professional skincare.</p>
                   <Image src="/services/anti-acne-facial.jpg" alt="HydraFacial relaxing" width={800} height={400} />
                   <h2>What is a HydraFacial?</h2>
                   <p className="mb-8">HydraFacial is a non-invasive, multi-step facial treatment that combines the benefits of hydradermabrasion, chemical peels, automated painless extractions, and a special delivery of antioxidants, hyaluronic acid, and peptides.</p>
@@ -147,7 +147,7 @@ export default async function HydraFacialBlog() {
                     <li>Call for expert consultation</li>
                     <li>WhatsApp for quick questions</li>
                   </ul>
-                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam's trusted med spa destination.</p>
+                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam&apos;s trusted med spa destination.</p>
                 </div>
               </div>
             </article>

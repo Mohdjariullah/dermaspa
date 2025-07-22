@@ -82,7 +82,7 @@ export default async function MedSpaVsDaySpaBlog() {
                 <h1 className="text-4xl font-extrabold text-[#a9445b] mb-8 leading-tight">Med Spa vs Day Spa in Guam: Which is Right for You?</h1>
                 <p className="text-gray-600 text-base mb-8" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>By Dermal Skin Care Spa | {new Date().toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
                 <section className="prose prose-pink max-w-none text-gray-800 prose-h2:mt-12 prose-h2:mb-6 prose-h3:mt-10 prose-h3:mb-4 prose-ul:my-6 prose-ol:my-6 prose-li:my-2 prose-img:rounded-xl prose-img:shadow prose-img:my-10 prose-blockquote:my-8 prose-blockquote:bg-[#fbb6c1]/20 prose-blockquote:p-4 prose-blockquote:rounded-xl prose-blockquote:border-l-4 prose-blockquote:border-[#a9445b]" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>
-                  <p>When searching for professional skincare and wellness services in Guam, you'll encounter two main types of establishments: medical spas (med spas) and day spas. While both offer relaxation and beauty treatments, the differences between them are significant and can greatly impact your results. Understanding these distinctions will help you make the best choice for your specific needs.</p>
+                  <p>When searching for professional skincare and wellness services in Guam, you&apos;ll encounter two main types of establishments: medical spas (med spas) and day spas. While both offer relaxation and beauty treatments, the differences between them are significant and can greatly impact your results. Understanding these distinctions will help you make the best choice for your specific needs.</p>
                   <Image src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80" alt="Spa difference" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h2>Defining Med Spa vs Day Spa: Understanding the Fundamental Differences</h2>
                   <h3>What is a Day Spa?</h3>
@@ -94,7 +94,7 @@ export default async function MedSpaVsDaySpaBlog() {
                     <li>Waxing services</li>
                     <li>Aromatherapy treatments</li>
                   </ul>
-                  <p>Day spas excel at providing a relaxing escape from daily stress, offering treatments that feel good and provide temporary aesthetic improvements. They're perfect for special occasions, stress relief, or when you simply want to be pampered.</p>
+                  <p>Day spas excel at providing a relaxing escape from daily stress, offering treatments that feel good and provide temporary aesthetic improvements. They&apos;re perfect for special occasions, stress relief, or when you simply want to be pampered.</p>
                   <Image src="/services/Stretching Body Massage.jpg" alt="Day spa relaxation" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h3>What is a Med Spa?</h3>
                   <ul>
@@ -181,7 +181,7 @@ export default async function MedSpaVsDaySpaBlog() {
                     <li><strong>Day Spa:</strong> Basic facials $40-60, massage $50-70, limited value, frequent visits</li>
                     <li><strong>Med Spa:</strong> Facials $50-130, advanced $90-199, long-lasting, fewer treatments, better value</li>
                   </ul>
-                  <h2>Why Medical-Grade Matters in Guam's Climate</h2>
+                  <h2>Why Medical-Grade Matters in Guam&apos;s Climate</h2>
                   <ul>
                     <li>Sun Damage: Med spa treatments reverse photodamage, prescription sunscreens</li>
                     <li>Humidity: Professional products withstand humidity, treat clogged pores</li>
@@ -197,8 +197,8 @@ export default async function MedSpaVsDaySpaBlog() {
                   <h2>Making Your Decision: Questions to Ask</h2>
                   <ul>
                     <li>What are my primary goals? Relaxation (day spa) or results (med spa)?</li>
-                    <li>What's my skin condition? Healthy (either) or specific concerns (med spa)?</li>
-                    <li>What's my budget? Occasional treat (day spa) or investment (med spa)?</li>
+                    <li>What&apos;s my skin condition? Healthy (either) or specific concerns (med spa)?</li>
+                    <li>What&apos;s my budget? Occasional treat (day spa) or investment (med spa)?</li>
                     <li>How important are results? Feel good (day spa) or visible improvement (med spa)?</li>
                   </ul>
                   <h2>The Future of Spa Services in Guam</h2>
@@ -225,7 +225,7 @@ export default async function MedSpaVsDaySpaBlog() {
                     <li>Call for expert consultation</li>
                     <li>WhatsApp for quick questions</li>
                   </ul>
-                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam's trusted med spa destination.</p>
+                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam&apos;s trusted med spa destination.</p>
                 </div>
               </div>
             </article>

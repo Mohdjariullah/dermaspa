@@ -2,12 +2,11 @@
 import { useEffect, useState } from "react";
 
 export default function Footer() {
-  const [utmSource, setUtmSource] = useState("website");
   const [year, setYear] = useState(2020);
   useEffect(() => {
     setYear(new Date().getFullYear());
     if (typeof window !== "undefined" && window.location && window.location.hostname) {
-      setUtmSource(window.location.hostname.replace(/^www\./, ""));
+      // setUtmSource(window.location.hostname.replace(/^www\./, "")); // This line was removed
     }
   }, []);
   return (

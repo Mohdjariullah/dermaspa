@@ -82,8 +82,8 @@ export default async function WellnessSpaBlog() {
                 <h1 className="text-4xl font-extrabold text-[#a9445b] mb-8 leading-tight">Wellness Spa in Guam: Your Complete Self-Care Destination</h1>
                 <p className="text-gray-600 text-base mb-8" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>By Dermal Skin Care Spa | {new Date().toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
                 <section className="prose prose-pink max-w-none text-gray-800 prose-h2:mt-12 prose-h2:mb-6 prose-h3:mt-10 prose-h3:mb-4 prose-ul:my-6 prose-ol:my-6 prose-li:my-2 prose-img:rounded-xl prose-img:shadow prose-img:my-10 prose-blockquote:my-8 prose-blockquote:bg-[#fbb6c1]/20 prose-blockquote:p-4 prose-blockquote:rounded-xl prose-blockquote:border-l-4 prose-blockquote:border-[#a9445b]" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>
-                  <p>In today's fast-paced world, finding a true wellness sanctuary has become more important than ever. For residents and visitors in Guam seeking comprehensive self-care solutions, Dermal Skin Care Spa has emerged as the island's premier wellness spa destination.</p>
-                  <p>Unlike traditional spas that focus solely on beauty or relaxation, a true wellness spa in Guam offers a holistic approach to health, beauty, and mental wellbeing. This guide explores how Dermal Skin Care Spa's integrated approach to wellness can transform not just your appearance, but your entire sense of wellbeing.</p>
+                  <p>In today&apos;s fast-paced world, finding a true wellness sanctuary has become more important than ever. For residents and visitors in Guam seeking comprehensive self-care solutions, Dermal Skin Care Spa has emerged as the island&apos;s premier wellness spa destination.</p>
+                  <p>Unlike traditional spas that focus solely on beauty or relaxation, a true wellness spa in Guam offers a holistic approach to health, beauty, and mental wellbeing. This guide explores how Dermal Skin Care Spa&apos;s integrated approach to wellness can transform not just your appearance, but your entire sense of wellbeing.</p>
                   <Image src="/services/Deep Tissue Body Massage.jpg" alt="Massage therapy in Guam" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h2>Understanding the Wellness Spa Concept</h2>
                   <p>A wellness spa goes beyond surface-level treatments to address the whole person – body, mind, and spirit. At Dermal Skin Care Spa, this philosophy is evident in every aspect of their service offerings. From therapeutic massages that relieve physical tension to advanced facials that boost confidence, each treatment contributes to overall wellness.</p>
@@ -128,7 +128,7 @@ export default async function WellnessSpaBlog() {
                     <li>Work-Life Balance: Spa visits provide necessary respite</li>
                   </ul>
                   <h3>Cultural Appreciation for Wellness</h3>
-                  <p>Dermal Skin Care Spa honors Guam's multicultural wellness traditions by incorporating techniques from across the Pacific and Asia.</p>
+                  <p>Dermal Skin Care Spa honors Guam&apos;s multicultural wellness traditions by incorporating techniques from across the Pacific and Asia.</p>
                   <Image src="/services/Balinese Body Massage Basic Facial.jpg" alt="Cultural spa traditions" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h2>Creating Your Personal Wellness Journey</h2>
                   <ul>
@@ -152,7 +152,7 @@ export default async function WellnessSpaBlog() {
                     <li>Mindful Moments</li>
                     <li>Therapeutic Touch</li>
                   </ul>
-                  <h2>What Makes Dermal Skin Care Spa Guam's Premier Wellness Destination</h2>
+                  <h2>What Makes Dermal Skin Care Spa Guam&apos;s Premier Wellness Destination</h2>
                   <ul>
                     <li>Comprehensive Service Menu</li>
                     <li>Professional Excellence</li>
@@ -164,7 +164,7 @@ export default async function WellnessSpaBlog() {
                   <h2>Integrating Wellness Spa Visits into Your Lifestyle</h2>
                   <ul>
                     <li>For Busy Professionals: Express treatments, evening appointments, weekend retreats</li>
-                    <li>For Parents: Mom's day out, prenatal/postnatal, quick treatments, couples packages</li>
+                    <li>For Parents: Mom&apos;s day out, prenatal/postnatal, quick treatments, couples packages</li>
                     <li>For Athletes: Sports massage, recovery, injury prevention, skin protection</li>
                     <li>For Seniors: Gentle massage, anti-aging facials, circulation-boosting, social wellness</li>
                   </ul>
@@ -181,9 +181,9 @@ export default async function WellnessSpaBlog() {
                     <li>Year-Round: Regular exfoliation, sun protection, stress management</li>
                   </ul>
                   <h2>Testimonials: Real Wellness Transformations</h2>
-                  <blockquote>"Monthly visits have transformed not just my skin, but my entire outlook on self-care."</blockquote>
-                  <blockquote>"The combination of massage and facials has eliminated my chronic headaches."</blockquote>
-                  <blockquote>"I never understood wellness until I experienced the holistic approach at Dermal."</blockquote>
+                  <blockquote>&quot;Monthly visits have transformed not just my skin, but my entire outlook on self-care.&quot;</blockquote>
+                  <blockquote>&quot;The combination of massage and facials has eliminated my chronic headaches.&quot;</blockquote>
+                  <blockquote>&quot;I never understood wellness until I experienced the holistic approach at Dermal.&quot;</blockquote>
                   <h2>Your Wellness Journey Starts Today</h2>
                   <ul>
                     <li>Book a Consultation</li>
@@ -200,8 +200,8 @@ export default async function WellnessSpaBlog() {
                     <li>Walk in for consultations</li>
                   </ul>
                   <h2>Embrace Complete Wellness in Guam</h2>
-                  <p>At Dermal Skin Care Spa, wellness isn't just a service – it's a philosophy. By addressing your complete wellbeing through professional treatments, personalized care, and ongoing support, they've created Guam's definitive wellness spa destination.</p>
-                  <p>Don't wait for the "perfect time" to prioritize your wellness. Every day you invest in yourself is a day moving toward better health, enhanced beauty, and greater life satisfaction. Experience the transformation that comes from choosing comprehensive wellness at Dermal Skin Care Spa.</p>
+                  <p>At Dermal Skin Care Spa, wellness isn&apos;t just a service – it&apos;s a philosophy. By addressing your complete wellbeing through professional treatments, personalized care, and ongoing support, they&apos;ve created Guam&apos;s definitive wellness spa destination.</p>
+                  <p>Don&apos;t wait for the &quot;perfect time&quot; to prioritize your wellness. Every day you invest in yourself is a day moving toward better health, enhanced beauty, and greater life satisfaction. Experience the transformation that comes from choosing comprehensive wellness at Dermal Skin Care Spa.</p>
                   <p>Conveniently serving all of Guam from Tumon to Hagåtña, Dermal Skin Care Spa welcomes you to discover true wellness. With professional expertise, comprehensive services, and genuine care for your wellbeing, your journey to a healthier, more beautiful you begins here.</p>
                 </section>
                 {/* Calm CTA Card at the bottom */}
@@ -212,7 +212,7 @@ export default async function WellnessSpaBlog() {
                     <li>Call for expert consultation</li>
                     <li>WhatsApp for quick questions</li>
                   </ul>
-                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam's trusted med spa destination.</p>
+                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam&apos;s trusted med spa destination.</p>
                 </div>
               </div>
             </article>

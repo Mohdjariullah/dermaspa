@@ -83,10 +83,10 @@ export default async function CompleteGuideMassageBlog() {
                 <p className="text-gray-600 text-base mb-8" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>By Dermal Skin Care Spa | {new Date().toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</p>
                 <section className="prose prose-pink max-w-none text-gray-800 prose-h2:mt-12 prose-h2:mb-6 prose-h3:mt-10 prose-h3:mb-4 prose-ul:my-6 prose-ol:my-6 prose-li:my-2 prose-img:rounded-xl prose-img:shadow prose-img:my-10 prose-blockquote:my-8 prose-blockquote:bg-[#fbb6c1]/20 prose-blockquote:p-4 prose-blockquote:rounded-xl prose-blockquote:border-l-4 prose-blockquote:border-[#a9445b]" style={{ fontFamily: 'Almarai, sans-serif', fontWeight: 400 }}>
                   <p>In the tropical paradise of Guam, where active lifestyles meet demanding work schedules, the need for professional body treatments and therapeutic massage has never been greater.</p>
-                  <p>Whether you're recovering from a challenging hike to Two Lovers Point, dealing with desk-job tension, or simply seeking deep relaxation, understanding your options for spa massage in Guam can transform your approach to wellness.</p>
+                  <p>Whether you&apos;re recovering from a challenging hike to Two Lovers Point, dealing with desk-job tension, or simply seeking deep relaxation, understanding your options for spa massage in Guam can transform your approach to wellness.</p>
                   <Image src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" alt="Relaxing spa massage" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h2>The Art and Science of Spa Massage in Guam</h2>
-                  <p>Massage therapy is far more than a luxury – it's a proven therapeutic practice with roots in ancient healing traditions and validation from modern medical science. In Guam's unique environment, where humidity, heat, and active lifestyles create specific physical challenges, professional massage becomes even more essential.</p>
+                  <p>Massage therapy is far more than a luxury �� it&apos;s a proven therapeutic practice with roots in ancient healing traditions and validation from modern medical science. In Guam&apos;s unique environment, where humidity, heat, and active lifestyles create specific physical challenges, professional massage becomes even more essential.</p>
                   <Image src="/services/Deep Tissue Body Massage.jpg" alt="Therapeutic massage" width={800} height={400} className="rounded-xl shadow my-8 mx-auto" />
                   <h2>Comprehensive Massage Menu: Finding Your Perfect Treatment</h2>
                   <h3>Traditional Balinese Massage ($70-80)</h3>
@@ -241,9 +241,9 @@ export default async function CompleteGuideMassageBlog() {
                   </ul>
                   <h3>Special Packages and Combinations</h3>
                   <ul>
-                    <li>Couple's Retreat</li>
+                    <li>Couple&apos;s Retreat</li>
                     <li>Full Body Restoration</li>
-                    <li>Athlete's Recovery</li>
+                    <li>Athlete&apos;s Recovery</li>
                     <li>Executive Stress Relief</li>
                   </ul>
                   <h2>Your Journey to Wellness Starts Today</h2>
@@ -253,8 +253,8 @@ export default async function CompleteGuideMassageBlog() {
                     <li>WhatsApp for immediate scheduling</li>
                     <li>Walk in for same-day availability</li>
                   </ul>
-                  <p>Experience why Dermal Skin Care Spa is Guam's trusted destination for professional massage and body treatments. Your body deserves the best care – give it the attention it needs with therapeutic massage that goes beyond relaxation to deliver real, lasting results.</p>
-                  <p>Conveniently located to serve all of Guam, from Tumon's hotels to Hagåtña's business district, Dermal Skin Care Spa welcomes you to discover the healing power of professional massage therapy. With over 60 treatments available, your perfect massage experience awaits.</p>
+                  <p>Experience why Dermal Skin Care Spa is Guam&apos;s trusted destination for professional massage and body treatments. Your body deserves the best care – give it the attention it needs with therapeutic massage that goes beyond relaxation to deliver real, lasting results.</p>
+                  <p>Conveniently located to serve all of Guam, from Tumon&apos;s hotels to Hagåtña&apos;s business district, Dermal Skin Care Spa welcomes you to discover the healing power of professional massage therapy. With over 60 treatments available, your perfect massage experience awaits.</p>
                 </section>
                 {/* Calm CTA Card at the bottom */}
                 <div className="mt-16 bg-[#fbb6c1]/20 border border-pink-100 rounded-2xl shadow-lg p-10 flex flex-col items-center text-center max-w-3xl mx-auto">
@@ -264,7 +264,7 @@ export default async function CompleteGuideMassageBlog() {
                     <li>Call for expert consultation</li>
                     <li>WhatsApp for quick questions</li>
                   </ul>
-                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam's trusted med spa destination.</p>
+                  <p className="text-gray-700 mb-2">Serving all of Guam with convenient access from Tumon, Tamuning, and Hagåtña, Dermal Skin Care Spa brings world-class med spa services to the island. Experience the perfect blend of medical expertise, advanced technology, and spa luxury at Guam&apos;s trusted med spa destination.</p>
                 </div>
               </div>
             </article>
