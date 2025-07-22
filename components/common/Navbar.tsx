@@ -8,6 +8,7 @@ const navLinks = [
   { name: "SERVICES", href: "/services" },
   { name: "SERVICES LIST", href: "/services-list" },
   { name: "SPECIALS", href: "/specials" },
+  { name: "BLOG", href: "/blog" }, // Added Blog link
 ];
 
 const moreLinks = [
