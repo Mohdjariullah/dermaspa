@@ -2,13 +2,20 @@
 import React from "react";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
+import Image from "next/image";
 
 export default function Contact() {
   return (
     <div className="min-h-screen flex flex-col bg-white relative font-sans">
       <Navbar/>
       <div className="absolute inset-0 -z-10">
-        <img src="/contact-usbg.jpg" alt="Background" className="w-full h-full object-cover opacity-25" />
+        <Image
+          src="/contact-usbg.jpg"
+          alt="Background"
+          width={1920}
+          height={1080}
+          className="w-full h-full object-cover opacity-25"
+        />
       </div>
       <div className="h-[110px] w-full" />
       <main className="max-w-6xl mx-auto w-full flex flex-col items-center justify-center py-6 sm:py-8 px-4 sm:px-6">

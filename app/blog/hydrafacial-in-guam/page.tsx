@@ -143,7 +143,7 @@ export default async function HydraFacialBlog() {
                 <div className="mt-16 bg-[#fbb6c1]/20 border border-pink-100 rounded-2xl shadow-lg p-10 flex flex-col items-center text-center max-w-3xl mx-auto">
                   <h2 className="text-2xl font-bold text-[#a9445b] mb-4">Book Your Med Spa Consultation Today</h2>
                   <ul className="text-base text-[#a9445b] font-semibold mb-6 space-y-2">
-                    <li>Visit <a href="https://www.dermalskincareandspaguam.com" className="underline hover:text-[#a9445b]" target="_blank" rel="noopener noreferrer">www.dermalskincareandspaguam.com</a></li>
+                    <li>Visit <a href="https://dermalskinclinicspa.com/" className="underline hover:text-[#a9445b]" target="_blank" rel="noopener noreferrer">www.dermalskincareandspaguam.com</a></li>
                     <li>Call for expert consultation</li>
                     <li>WhatsApp for quick questions</li>
                   </ul>

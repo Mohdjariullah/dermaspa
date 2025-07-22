@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Blog | Dermal Skin Care Spa",
@@ -89,9 +90,11 @@ export default async function BlogIndex() {
               {posts.map((post: BlogPost) => (
                 <article key={post.slug} className="bg-white rounded-2xl shadow border border-pink-100 overflow-hidden">
                   <Link href={`/blog/${post.slug}`}>
-                    <img
+                    <Image
                       src={post.image}
                       alt={post.title}
+                      width={512}
+                      height={384}
                       className="w-full h-64 object-cover object-center mb-0"
                       loading="lazy"
                     />

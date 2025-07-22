@@ -204,7 +204,7 @@ export default async function BlogPost() {
                   <ul>
                     <li>Call their dedicated booking line</li>
                     <li>Message via WhatsApp for quick responses</li>
-                    <li>Visit their website at <a href="https://www.dermalskincareandspaguam.com" className="text-[#a9445b] underline" target="_blank" rel="noopener noreferrer">www.dermalskincareandspaguam.com</a></li>
+                    <li>Visit their website at <a href="https://dermalskinclinicspa.com/" className="text-[#a9445b] underline" target="_blank" rel="noopener noreferrer">www.dermalskincareandspaguam.com</a></li>
                   </ul>
                   <p>Don&apos;t settle for ordinary when you can experience extraordinary. Discover why discerning clients choose Dermal Skin Care Spa for all their beauty and wellness needs. Your journey to radiant skin and complete relaxation starts here at Guam&apos;s premier spa destination.</p>
                   <p>Located conveniently for residents of Tumon, Tamuning, Hagåtña, and all surrounding areas, Dermal Skin Care Spa is your trusted partner in beauty and wellness. Experience the difference that expertise, technology, and genuine care can make in your spa journey.</p>
