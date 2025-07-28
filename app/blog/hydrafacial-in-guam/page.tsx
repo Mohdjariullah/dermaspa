@@ -3,6 +3,8 @@ import Footer from "@/components/common/Footer";
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import fs from "fs";
+import path from "path";
 
 export const metadata: Metadata = {
   title: "HydraFacial in Guam: Everything You Need to Know About This Celebrity-Favorite Treatment | Dermal Skin Care Spa",
@@ -33,8 +35,6 @@ export const metadata: Metadata = {
 };
 
 // Helper to get recent posts (for sidebar)
-import fs from "fs";
-import path from "path";
 async function getRecentPosts() {
   const blogDir = path.join(process.cwd(), "app/blog");
   const slugs = fs
