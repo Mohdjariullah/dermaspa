@@ -19,6 +19,17 @@ import { useState } from "react";
  * This allows the booking system to pre-populate the service details.
  */
 
+// Type definition for service objects
+type Service = {
+  id: number;
+  title: string;
+  slug: string;
+  duration: string;
+  price: string;
+  image: string;
+  category: string;
+};
+
 const serviceCategories = [
   "All Services",
   "Esthetic Facials", 
@@ -28,7 +39,7 @@ const serviceCategories = [
   "Waxing"
 ];
 
-const allServices = [
+const allServices: Service[] = [
   // Esthetic Facials
   {
     id: 1,
@@ -455,7 +466,7 @@ export default function Services() {
     : displayedServices.filter(service => service.category === selectedCategory);
 
   // Function to handle booking with service slug
-  const handleBooking = (service: any) => {
+  const handleBooking = (service: Service) => {
     const bookingUrl = `https://spa.dermalskinclinicspa.com/contact-details-page?service=${service.slug}&title=${encodeURIComponent(service.title)}&price=${encodeURIComponent(service.price)}&duration=${encodeURIComponent(service.duration)}`;
     window.open(bookingUrl, '_blank');
   };
