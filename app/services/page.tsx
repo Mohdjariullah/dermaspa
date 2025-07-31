@@ -467,7 +467,7 @@ export default function Services() {
 
   // Function to handle booking with service slug
   const handleBooking = (service: Service) => {
-    const bookingUrl = `https://spa.dermalskinclinicspa.com/contact-details-page?service=${service.slug}&title=${encodeURIComponent(service.title)}&price=${encodeURIComponent(service.price)}&duration=${encodeURIComponent(service.duration)}`;
+    const bookingUrl = `https://dermal-spa-booking.vercel.app/?utm_source=dermalskinclinicspa.com&utm_medium=referral&utm_campaign=dermalskinclinicspa.com&service=${service.slug}`;
     window.open(bookingUrl, '_blank');
   };
 
