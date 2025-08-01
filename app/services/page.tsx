@@ -449,7 +449,7 @@ const allServices: Service[] = [
     duration: "5 mins",
     price: "$0.01",
     image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/Face%20%26%20Body_20240619_172245_0002.png",
-    category: "All Services"
+    category: "Esthetic Facials"
   }
 ];
 
@@ -509,6 +509,10 @@ export default function Services() {
                   alt={service.title}
                   fill
                   className="object-cover"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                  }}
                 />
               </div>
               {/* Service Details - Minimal Padding, Small Font */}
