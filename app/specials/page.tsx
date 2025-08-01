@@ -182,7 +182,7 @@ export default function Specials() {
                 </div>
                 <div className="bg-white rounded-lg p-4 shadow-lg border-2 border-pink-200 hover:border-[#8b5a7a] transition-colors">
                   <h4 className="font-bold text-[#8b5a7a] mb-2 text-lg" style={{fontFamily: 'Impact, Charcoal, sans-serif'}}>✨ Salicylic Peel</h4>
-                  <p className="text-sm text-gray-700 font-medium">Open clogged pores and exfoliates the skin. Remove excess oil and it's effective for treating whiteheads and pimples.</p>
+                  <p className="text-sm text-gray-700 font-medium">Open clogged pores and exfoliates the skin. Remove excess oil and it&apos;s effective for treating whiteheads and pimples.</p>
                 </div>
                 <div className="bg-white rounded-lg p-4 shadow-lg border-2 border-pink-200 hover:border-[#8b5a7a] transition-colors">
                   <h4 className="font-bold text-[#8b5a7a] mb-2 text-lg" style={{fontFamily: 'Impact, Charcoal, sans-serif'}}>🌺 Lactic Peel</h4>
