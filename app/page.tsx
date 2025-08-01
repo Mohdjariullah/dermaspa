@@ -74,38 +74,38 @@ export default function Home() {
         <span className="text-xs sm:text-sm text-gray-600 mb-6 text-center">Tips, news, and inspiration for your best skin and wellness</span>
         <div className="w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Blog Card 1 */}
-          <div className="bg-[#fbb6c1]/30 rounded-xl shadow-lg border border-pink-100 flex flex-col overflow-hidden transition hover:shadow-2xl">
+          <a href="/blog" className="bg-[#fbb6c1]/30 rounded-xl shadow-lg border border-pink-100 flex flex-col overflow-hidden transition hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-[#a9445b]" tabIndex={0}>
             <div className="h-48 w-full relative">
               <Image src="/rs=w_1023,cg_true.jpeg" alt="Glowing Skin Tips" fill style={{ objectFit: 'cover' }} className="rounded-t-xl" />
             </div>
             <div className="p-5 flex flex-col flex-1">
               <h3 className="font-bold text-lg text-[#a9445b] mb-2">5 Tips for Glowing Skin</h3>
               <p className="text-gray-700 text-sm mb-4 flex-1">Discover simple daily habits and spa treatments that can help you achieve a radiant, healthy complexion all year round.</p>
-              <button className="mt-auto bg-[#a9445b] text-white px-4 py-2 rounded shadow font-semibold text-sm transition hover:bg-[#fbb6c1] hover:text-[#a9445b]">Read More</button>
+              <span className="mt-auto bg-[#a9445b] text-white px-4 py-2 rounded shadow font-semibold text-sm transition hover:bg-[#fbb6c1] hover:text-[#a9445b] text-center cursor-pointer">Read More</span>
             </div>
-          </div>
+          </a>
           {/* Blog Card 2 */}
-          <div className="bg-[#fbb6c1]/30 rounded-xl shadow-lg border border-pink-100 flex flex-col overflow-hidden transition hover:shadow-2xl">
+          <a href="/blog" className="bg-[#fbb6c1]/30 rounded-xl shadow-lg border border-pink-100 flex flex-col overflow-hidden transition hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-[#a9445b]" tabIndex={0}>
             <div className="h-48 w-full relative">
               <Image src="/Deep Cleansing Facial (for Men & Women).jpg" alt="Deep Cleansing Benefits" fill style={{ objectFit: 'cover' }} className="rounded-t-xl" />
             </div>
             <div className="p-5 flex flex-col flex-1">
               <h3 className="font-bold text-lg text-[#a9445b] mb-2">The Benefits of Deep Cleansing Facials</h3>
               <p className="text-gray-700 text-sm mb-4 flex-1">Learn how deep cleansing facials can rejuvenate your skin, unclog pores, and leave you feeling refreshed and renewed.</p>
-              <button className="mt-auto bg-[#a9445b] text-white px-4 py-2 rounded shadow font-semibold text-sm transition hover:bg-[#fbb6c1] hover:text-[#a9445b]">Read More</button>
+              <span className="mt-auto bg-[#a9445b] text-white px-4 py-2 rounded shadow font-semibold text-sm transition hover:bg-[#fbb6c1] hover:text-[#a9445b] text-center cursor-pointer">Read More</span>
             </div>
-          </div>
+          </a>
           {/* Blog Card 3 */}
-          <div className="bg-[#fbb6c1]/30 rounded-xl shadow-lg border border-pink-100 flex flex-col overflow-hidden transition hover:shadow-2xl">
+          <a href="/blog" className="bg-[#fbb6c1]/30 rounded-xl shadow-lg border border-pink-100 flex flex-col overflow-hidden transition hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-[#a9445b]" tabIndex={0}>
             <div className="h-48 w-full relative">
               <Image src="/services/whitening-kojic.jpg" alt="Whitening Treatments" fill style={{ objectFit: 'cover' }} className="rounded-t-xl" />
             </div>
             <div className="p-5 flex flex-col flex-1">
               <h3 className="font-bold text-lg text-[#a9445b] mb-2">Understanding Whitening Treatments</h3>
               <p className="text-gray-700 text-sm mb-4 flex-1">Explore the science and safety behind popular whitening treatments, and how to choose the right one for your skin type.</p>
-              <button className="mt-auto bg-[#a9445b] text-white px-4 py-2 rounded shadow font-semibold text-sm transition hover:bg-[#fbb6c1] hover:text-[#a9445b]">Read More</button>
+              <span className="mt-auto bg-[#a9445b] text-white px-4 py-2 rounded shadow font-semibold text-sm transition hover:bg-[#fbb6c1] hover:text-[#a9445b] text-center cursor-pointer">Read More</span>
             </div>
-          </div>
+          </a>
         </div>
       </section>
       <Footer />
