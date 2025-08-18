@@ -320,34 +320,6 @@ export default function Promos() {
                 className="rounded-lg w-full h-auto object-contain shadow-2xl border-4 border-[#9b6b8a]"
               />
             </div>
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-              <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-lg p-6 border-2 border-[#9b6b8a] shadow-lg">
-                <h3 className="text-xl font-bold text-[#9b6b8a] mb-3 text-center">
-                  New Client Special
-                </h3>
-                <p className="text-gray-700 text-center mb-4">
-                  First-time visitors get 15% off any facial treatment
-                </p>
-                <div className="text-center">
-                  <span className="text-2xl font-bold text-[#9b6b8a]">
-                    15% OFF
-                  </span>
-                </div>
-              </div>
-              <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-lg p-6 border-2 border-[#9b6b8a] shadow-lg">
-                <h3 className="text-xl font-bold text-[#9b6b8a] mb-3 text-center">
-                  Referral Bonus
-                </h3>
-                <p className="text-gray-700 text-center mb-4">
-                  Refer a friend and both get $20 off your next treatment
-                </p>
-                <div className="text-center">
-                  <span className="text-2xl font-bold text-[#9b6b8a]">
-                    $20 OFF
-                  </span>
-                </div>
-              </div>
-            </div>
           </div>
         </main>
         <Footer />
