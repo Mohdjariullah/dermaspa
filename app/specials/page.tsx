@@ -19,7 +19,7 @@ export default function Specials() {
     <>
       <Head>
         <title>Spa Specials & Services | Dermal Skin Clinic Guam | Face & Body Treatments</title>
-        <meta name="description" content="Explore our spa specials and services in Guam! Face treatments, body massages, and signature services. Call (671) 647-7546 to book your appointment today!" />
+        <meta name="description" content="Explore our spa specials and services in Guam! Face treatments, body massages, and signature services. Call (888) 964-5925 to book your appointment today!" />
         <meta name="keywords" content="spa specials Guam, face treatments, body massages, spa services, facial treatments, massage Guam, skincare services" />
         <meta property="og:title" content="Spa Specials & Services Guam | Face & Body Treatments" />
         <meta property="og:description" content="Discover our spa specials and services! Face treatments, body massages, and signature services available. Call to book your appointment!" />
@@ -35,7 +35,7 @@ export default function Specials() {
           <div className="w-full bg-gradient-to-r from-pink-50 to-rose-50 border-b-2 border-[#8b5a7a] py-4">
             <div className="max-w-6xl mx-auto text-center">
               <h1 className="text-xl sm:text-2xl font-bold text-[#8b5a7a] mb-2">
-                📞 Call (671) 647-7546 to Book Our Services
+                📞 Call (888) 964-5925 to Book Our Services
               </h1>
               <p className="text-sm text-gray-700">
                 Face Treatments | Body Massages | Signature Services | Professional Care

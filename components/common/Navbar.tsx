@@ -13,7 +13,7 @@ const navLinks = [
 ];
 
 const moreLinks = [
-  { name: "TESTIMONIALS", href: "/testimonials", bold: true },
+  // { name: "TESTIMONIALS", href: "/testimonials", bold: true },
   { name: "CONTACT US", href: "/contact" },
   { name: "NO CALL / NO SHOW POLICY", href: "/no-call-no-show-policy" },
 ];
@@ -31,7 +31,7 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
     <header className={`${sticky ? "sticky top-0" : ""} w-full bg-white/90 shadow-md z-20 relative transition-all duration-300`}> 
       {/* Mobile: Phone number bar */}
       <div className="block md:hidden w-full bg-[#fbb6c1] text-center py-2 font-bold text-lg tracking-wide text-black">
-        <a href="tel:6716477546" className="hover:text-[#a9445b] transition-colors">(671) 647-7546</a>
+        (888) 964-5925
       </div>
       <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-6 py-6 md:py-8 w-full">
         {/* Mobile Topbar */}
@@ -69,7 +69,7 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className={`py-1 px-0 text-sm hover:text-[#a9445b] transition font-${item.bold ? "bold" : "normal"} uppercase`}
+                          className={`py-1 px-0 text-sm hover:text-[#a9445b] transition font-normal uppercase`}
                     >
                       {item.name}
                     </Link>
@@ -80,7 +80,7 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
           </ul>
         </nav>
         <div className="hidden md:flex items-center gap-4 text-base font-semibold text-[#222] ml-4">
-          <a href="tel:6716477546" className="hover:text-[#a9445b] transition-colors">(671) 647-7546</a>
+          (888) 964-5925
           <span className="mx-2">|</span>
           <span className="cursor-pointer"><FaShoppingCart size={22} /></span>
           <span className="cursor-pointer"><FaUser size={22} /></span>
@@ -111,7 +111,7 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
                       <Link
                         key={item.name}
                         href={item.href}
-                        className={`py-1 px-0 text-sm hover:text-[#a9445b] transition font-${item.bold ? "bold" : "normal"} uppercase`}
+                        className={`py-1 px-0 text-sm hover:text-[#a9445b] transition font-normal uppercase`}
                         onClick={() => setMobileOpen(false)}
                       >
                         {item.name}

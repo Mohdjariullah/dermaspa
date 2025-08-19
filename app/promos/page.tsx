@@ -32,7 +32,7 @@ export default function Promos() {
         </title>
         <meta
           name="description"
-          content="Discover current spa promotions and special offers in Guam! Limited time deals on face treatments, massages, and skincare products. Call (671) 647-7546 to book your discounted session!"
+          content="Discover current spa promotions and special offers in Guam! Limited time deals on face treatments, massages, and skincare products. Call (888) 964-5925 to book your discounted session!"
         />
         <meta
           name="keywords"
@@ -64,7 +64,7 @@ export default function Promos() {
           <div className="w-full bg-gradient-to-r from-pink-50 to-rose-50 border-b-2 border-[#9b6b8a] py-4">
             <div className="max-w-6xl mx-auto text-center">
               <h1 className="text-xl sm:text-2xl font-bold text-[#9b6b8a] mb-2">
-                📞 Call (671) 647-7546 to Book Current Promotions
+                📞 Call (888) 964-5925 to Book Current Promotions
               </h1>
               <p className="text-sm text-gray-700">
                 Limited Time Offers | Face Treatments | Massages | Product

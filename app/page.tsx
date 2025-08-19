@@ -50,7 +50,7 @@ export default function Home() {
           <div className="text-sm sm:text-base md:text-lg text-gray-700 mb-4 sm:mb-6 leading-relaxed">
             Face and Body relaxing treatment with the full benefits of rejuvenating the skin to become remarkably supple, vibrant, and youthful-looking. Enjoy excellent service powered by the state-of-the-art equipment and our well-trained Esthetician and Spa Therapist Team that we are providing just for you. We are dedicated to serving our existing customer and We would like to Welcome all future customers.<br/>
             Call Us Today! to Book your Skin Care and Spa Treatment.<br/>
-            671-647-7546 | 671-489-0327 | Follow us on <a href="https://www.facebook.com/dermalskincareandspa" target="_blank" rel="noopener noreferrer" className="text-[#a9445b] hover:underline">Facebook</a> + <a href="https://www.instagram.com/dermalskincareandspaguam/" target="_blank" rel="noopener noreferrer" className="text-[#a9445b] hover:underline">Instagram</a>
+            (888) 964-5925 | Follow us on <a href="https://www.facebook.com/dermalskincareandspa" target="_blank" rel="noopener noreferrer" className="text-[#a9445b] hover:underline">Facebook</a> + <a href="https://www.instagram.com/dermalskincareandspaguam/" target="_blank" rel="noopener noreferrer" className="text-[#a9445b] hover:underline">Instagram</a>
           </div>
         </div>
       </section>
