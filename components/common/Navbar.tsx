@@ -30,8 +30,9 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
   return (
     <header className={`${sticky ? "sticky top-0" : ""} w-full bg-white/90 shadow-md z-20 relative transition-all duration-300`}> 
       {/* Mobile: Phone number bar */}
-      <div className="block md:hidden w-full bg-[#fbb6c1] text-center py-2 font-bold text-lg tracking-wide text-black">
-        (888) 964-5925
+      <div className="block md:hidden w-full bg-[#fbb6c1] text-center py-2 font-bold text-sm tracking-wide text-black">
+        <div>Clinic: (671) 647-7546</div>
+        <div>24/7 Booking: (888) 964-5925</div>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-6 py-6 md:py-8 w-full">
         {/* Mobile Topbar */}
@@ -79,8 +80,11 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
             </li>
           </ul>
         </nav>
-        <div className="hidden md:flex items-center gap-4 text-base font-semibold text-[#222] ml-4">
-          (888) 964-5925
+        <div className="hidden md:flex items-center gap-4 text-sm font-semibold text-[#222] ml-4">
+          <div className="flex flex-col text-right">
+            <span>Clinic: (671) 647-7546</span>
+            <span>24/7 Booking: (888) 964-5925</span>
+          </div>
           <span className="mx-2">|</span>
           <span className="cursor-pointer"><FaShoppingCart size={22} /></span>
           <span className="cursor-pointer"><FaUser size={22} /></span>
