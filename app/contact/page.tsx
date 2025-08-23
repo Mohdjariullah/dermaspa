@@ -67,7 +67,7 @@ export default function Contact() {
         <div className="w-full flex flex-col items-center justify-center mt-8 sm:mt-10 mb-8 px-4 font-sans">
           <span className="uppercase text-xs font-semibold tracking-widest mb-2 text-black font-sans">Questions or Comments?</span>
           <p className="text-gray-600 text-sm sm:text-base mb-4 text-center max-w-2xl text-black leading-relaxed font-sans">
-            Do you have questions about our products? Do you need help in designing your skin care regimen? Drop us a line, and we&apos;ll get back to you as soon as possible.
+            Do you have questions about our products? Do you need help in designing your skin care regimen? Drop us a line at dermalskinclinicandspa@gmail.com, and we&apos;ll get back to you as soon as possible.
           </p>
           <span className="uppercase text-xs font-semibold tracking-widest mt-2 mb-2 text-black font-sans">DERMAL SKIN CLINIC AND SPA GUAM</span>
         </div>
@@ -75,4 +75,4 @@ export default function Contact() {
       <Footer />
     </div>
   );
-} 
+}

@@ -84,6 +84,7 @@ export default function Navbar({ sticky = true }: { sticky?: boolean }) {
           <div className="flex flex-col text-right">
             <span>Clinic: (671) 647-7546</span>
             <span>24/7 Booking: (888) 964-5925</span>
+            <span>Email: dermalskinclinicandspa@gmail.com</span>
           </div>
           <span className="mx-2">|</span>
           <span className="cursor-pointer"><FaShoppingCart size={22} /></span>
