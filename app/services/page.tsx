@@ -36,7 +36,9 @@ const serviceCategories = [
   "Face & Body Packages",
   "Body Massages",
   "Body Booster",
-  "Waxing"
+  "Waxing",
+  "Add Ons",
+  "Spa Delights"
 ];
 
 const allServices: Service[] = [
@@ -150,9 +152,82 @@ const allServices: Service[] = [
     image: "https://img1.wsimg.com/isteam/stock/jpJd47P",
     category: "Face & Body Packages"
   },
-  // Body Massages
+  // 3 Face Packages
+  {
+    id: 13,
+    title: "3 Face Basic Facial + Microdermabrason + Extreme Softness",
+    slug: "3-face-basic-facial-microdermabrason-extreme-softness",
+    duration: "60-90 mins",
+    price: "$120",
+    image: "/Basic-facial-men-women.jpg",
+    category: "Face & Body Packages"
+  },
   {
     id: 14,
+    title: "3 Face + Deep Cleansing Facial",
+    slug: "3-face-deep-cleansing-facial",
+    duration: "60-90 mins",
+    price: "$140",
+    image: "/Deep Cleansing Facial (for Men & Women).jpg",
+    category: "Face & Body Packages"
+  },
+  {
+    id: 15,
+    title: "3 Face + Placenta Collagen Facial or Whitening Facial or Anti-Acne Facial",
+    slug: "3-face-placenta-collagen-whitening-anti-acne-facial",
+    duration: "60-90 mins",
+    price: "$150",
+    image: "/Placenta-Collagen Facial.jpg",
+    category: "Face & Body Packages"
+  },
+  {
+    id: 16,
+    title: "3 Face + Face Treatment #1",
+    slug: "3-face-treatment-1",
+    duration: "60-90 mins",
+    price: "$160",
+    image: "/Basic-facial-men-women.jpg",
+    category: "Face & Body Packages"
+  },
+  {
+    id: 17,
+    title: "3 Face + Face Treatment #2",
+    slug: "3-face-treatment-2",
+    duration: "60-90 mins",
+    price: "$175",
+    image: "/Basic-facial-men-women.jpg",
+    category: "Face & Body Packages"
+  },
+  {
+    id: 18,
+    title: "3 Face + Vitamin C Facial or Acne Vulgaris Facial",
+    slug: "3-face-vitamin-c-acne-vulgaris-facial",
+    duration: "60-90 mins",
+    price: "$180",
+    image: "/services/whitening-kojic.jpg",
+    category: "Face & Body Packages"
+  },
+  {
+    id: 19,
+    title: "3 Face + Peel",
+    slug: "3-face-peel",
+    duration: "60-90 mins",
+    price: "$185",
+    image: "/Basic-facial-men-women.jpg",
+    category: "Face & Body Packages"
+  },
+  {
+    id: 20,
+    title: "3 Face + Deep Tissue",
+    slug: "3-face-deep-tissue",
+    duration: "60-90 mins",
+    price: "$200",
+    image: "/services/Deep Tissue Body Massage.jpg",
+    category: "Face & Body Packages"
+  },
+  // Body Massages
+  {
+    id: 21,
     title: "Balinese Body Massage",
     slug: "balinese-body-massage",
     duration: "1 hr",
@@ -161,7 +236,7 @@ const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 15,
+    id: 22,
     title: "Maternity Massage",
     slug: "maternity-massage",
     duration: "1 hr",
@@ -170,7 +245,7 @@ const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 16,
+    id: 23,
     title: "Stretching Body Massage",
     slug: "stretching-body-massage",
     duration: "1 hr",
@@ -179,7 +254,7 @@ const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 17,
+    id: 24,
     title: "Deep Tissue Body Massage",
     slug: "deep-tissue-body-massage",
     duration: "1 hr",
@@ -188,7 +263,7 @@ const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 18,
+    id: 25,
     title: "Hot Stone Massage",
     slug: "hot-stone-massage",
     duration: "1 hr",
@@ -197,7 +272,7 @@ const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 19,
+    id: 26,
     title: "Hot Stone Massage 90 Minutes",
     slug: "hot-stone-massage-90-minutes",
     duration: "1 hr 30 mins",
@@ -207,7 +282,7 @@ const allServices: Service[] = [
   },
   // Body Booster
   {
-    id: 20,
+    id: 27,
     title: "Underarm Cleaning",
     slug: "underarm-cleaning",
     duration: "30 mins",
@@ -216,7 +291,7 @@ const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 21,
+    id: 28,
     title: "Back Treatment",
     slug: "back-treatment",
     duration: "30 mins",
@@ -225,7 +300,7 @@ const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 22,
+    id: 29,
     title: "Chemical Peel (Body) Per Area",
     slug: "chemical-peel-body",
     duration: "30 mins",
@@ -234,7 +309,7 @@ const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 23,
+    id: 30,
     title: "Underarm or Inguinal Whitening",
     slug: "underarm-inguinal-whitening",
     duration: "30 mins",
@@ -243,7 +318,7 @@ const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 25,
+    id: 31,
     title: "Basic Vajacial Cleaning + Brazilian Wax",
     slug: "vajacial-cleaning-brazilian-wax",
     duration: "30 mins",
@@ -252,7 +327,7 @@ const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 26,
+    id: 32,
     title: "Microdermabrasion (Body) Per Area",
     slug: "microdermabrasion-body",
     duration: "30 mins",
@@ -261,7 +336,7 @@ const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 27,
+    id: 33,
     title: "Deep Moisturizing Body Treatment",
     slug: "deep-moisturizing-body-treatment",
     duration: "30 mins",
@@ -270,7 +345,7 @@ const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 28,
+    id: 34,
     title: "Dead Sea Salt Body Scrub + Deep Moisturizing",
     slug: "dead-sea-salt-body-scrub",
     duration: "30 mins",
@@ -279,7 +354,7 @@ const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 29,
+    id: 35,
     title: "Mud Mask Body Wrap + Deep Moisturizing Body Treatment",
     slug: "mud-mask-body-wrap",
     duration: "30 mins",
@@ -289,7 +364,7 @@ const allServices: Service[] = [
   },
   // Waxing Services
   {
-    id: 30,
+    id: 36,
     title: "Eyebrow Waxing",
     slug: "eyebrow-waxing",
     duration: "15 mins",
@@ -298,7 +373,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 31,
+    id: 37,
     title: "Lip Waxing",
     slug: "lip-waxing",
     duration: "5 mins",
@@ -307,7 +382,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 32,
+    id: 38,
     title: "Half Arm Waxing",
     slug: "half-arm-waxing",
     duration: "15 mins",
@@ -316,7 +391,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 33,
+    id: 39,
     title: "Full Arm Waxing",
     slug: "full-arm-waxing",
     duration: "30 mins",
@@ -325,7 +400,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 34,
+    id: 40,
     title: "Chin Waxing",
     slug: "chin-waxing",
     duration: "5 mins",
@@ -334,7 +409,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 35,
+    id: 41,
     title: "Neck Waxing",
     slug: "neck-waxing",
     duration: "15 mins",
@@ -343,7 +418,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 36,
+    id: 42,
     title: "Lower Leg Waxing",
     slug: "lower-leg-waxing",
     duration: "30 mins",
@@ -352,7 +427,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 37,
+    id: 43,
     title: "Full Leg Waxing",
     slug: "full-leg-waxing",
     duration: "1 hr",
@@ -361,7 +436,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 38,
+    id: 44,
     title: "Full Face Waxing",
     slug: "full-face-waxing",
     duration: "30 mins",
@@ -370,7 +445,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 39,
+    id: 45,
     title: "Bikini Waxing",
     slug: "bikini-waxing",
     duration: "30 mins",
@@ -379,7 +454,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 40,
+    id: 46,
     title: "Underarm Waxing",
     slug: "underarm-waxing",
     duration: "15 mins",
@@ -388,7 +463,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 41,
+    id: 47,
     title: "Brazilian Wax ( Women )",
     slug: "brazilian-wax-women",
     duration: "45 mins",
@@ -397,7 +472,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 42,
+    id: 48,
     title: "Brazilian Waxing ( Men)",
     slug: "brazilian-waxing-men",
     duration: "45 mins",
@@ -406,7 +481,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 43,
+    id: 49,
     title: "Chest Wax",
     slug: "chest-wax",
     duration: "30 mins",
@@ -415,7 +490,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 44,
+    id: 50,
     title: "Stomach Wax",
     slug: "stomach-wax",
     duration: "30 mins",
@@ -424,7 +499,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 45,
+    id: 51,
     title: "Shoulders",
     slug: "shoulders-waxing",
     duration: "30 mins",
@@ -433,7 +508,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 46,
+    id: 52,
     title: "Feet",
     slug: "feet-waxing",
     duration: "5 mins",
@@ -441,9 +516,210 @@ const allServices: Service[] = [
     image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
     category: "Waxing"
   },
+  // Additional Waxing Services
+  {
+    id: 53,
+    title: "Sideburns Waxing",
+    slug: "sideburns-waxing",
+    duration: "15 mins",
+    price: "$12",
+    image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/eyebrows.jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 54,
+    title: "Upper Leg Waxing",
+    slug: "upper-leg-waxing",
+    duration: "30 mins",
+    price: "$45",
+    image: "https://img1.wsimg.com/isteam/stock/42117/:/rs=h:%7B640%7D",
+    category: "Waxing"
+  },
+  {
+    id: 55,
+    title: "Inner Thighs Waxing",
+    slug: "inner-thighs-waxing",
+    duration: "15 mins",
+    price: "$25",
+    image: "https://img1.wsimg.com/isteam/stock/42117/:/rs=h:%7B640%7D",
+    category: "Waxing"
+  },
+  {
+    id: 56,
+    title: "Nostrils Waxing",
+    slug: "nostrils-waxing",
+    duration: "15 mins",
+    price: "$30",
+    image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/eyebrows.jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 57,
+    title: "French Bikini Waxing",
+    slug: "french-bikini-waxing",
+    duration: "30 mins",
+    price: "$45",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
+    category: "Waxing"
+  },
+  {
+    id: 58,
+    title: "Back Waxing",
+    slug: "back-waxing",
+    duration: "30 mins",
+    price: "$60",
+    image: "/cr=w_1240,h_620.jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 59,
+    title: "Buttocks Waxing",
+    slug: "buttocks-waxing",
+    duration: "30 mins",
+    price: "$45",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
+    category: "Waxing"
+  },
+  {
+    id: 60,
+    title: "Ears Waxing",
+    slug: "ears-waxing",
+    duration: "15 mins",
+    price: "$30",
+    image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/eyebrows.jpeg",
+    category: "Waxing"
+  },
+  {
+    id: 61,
+    title: "Feet/Toes Waxing",
+    slug: "feet-toes-waxing",
+    duration: "15 mins",
+    price: "$30",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
+    category: "Waxing"
+  },
+  {
+    id: 62,
+    title: "Hands/Fingers Waxing",
+    slug: "hands-fingers-waxing",
+    duration: "15 mins",
+    price: "$30",
+    image: "https://img1.wsimg.com/isteam/stock/R4ggkwa",
+    category: "Waxing"
+  },
+  // Add Ons
+  {
+    id: 63,
+    title: "Hot Stone Back",
+    slug: "hot-stone-back",
+    duration: "30 mins",
+    price: "$15",
+    image: "/services/hot-stone-massage.jpg",
+    category: "Add Ons"
+  },
+  {
+    id: 64,
+    title: "Deep Moisturizing",
+    slug: "deep-moisturizing",
+    duration: "30 mins",
+    price: "$25",
+    image: "/services/Deep Tissue Body Massage.jpg",
+    category: "Add Ons"
+  },
+  {
+    id: 65,
+    title: "30 Mins Massage",
+    slug: "30-mins-massage",
+    duration: "30 mins",
+    price: "$40",
+    image: "/services/Balinese Body Massage Basic Facial.jpg",
+    category: "Add Ons"
+  },
+  // Spa Delights
+  {
+    id: 66,
+    title: "Hair and Scalp Treatment",
+    slug: "hair-scalp-treatment",
+    duration: "30-60 mins",
+    price: "$40-$75",
+    image: "/services/Balinese Body Massage Basic Facial.jpg",
+    category: "Spa Delights"
+  },
+  {
+    id: 67,
+    title: "Headspa",
+    slug: "headspa",
+    duration: "30-60 mins",
+    price: "$40-$75",
+    image: "/services/Balinese Body Massage Basic Facial.jpg",
+    category: "Spa Delights"
+  },
+  {
+    id: 68,
+    title: "Face Massage",
+    slug: "face-massage",
+    duration: "30-60 mins",
+    price: "$40-$75",
+    image: "/Basic-facial-men-women.jpg",
+    category: "Spa Delights"
+  },
+  {
+    id: 69,
+    title: "Shoulder, Face, Arms and Head Massage",
+    slug: "shoulder-face-arms-head-massage",
+    duration: "30-60 mins",
+    price: "$40-$75",
+    image: "/services/Balinese Body Massage Basic Facial.jpg",
+    category: "Spa Delights"
+  },
+  {
+    id: 70,
+    title: "Foot Massage",
+    slug: "foot-massage",
+    duration: "30-60 mins",
+    price: "$40-$75",
+    image: "/services/Balinese Body Massage Basic Facial.jpg",
+    category: "Spa Delights"
+  },
+  {
+    id: 71,
+    title: "Back Massage",
+    slug: "back-massage",
+    duration: "30-60 mins",
+    price: "$40-$75",
+    image: "/services/Deep Tissue Body Massage.jpg",
+    category: "Spa Delights"
+  },
+  {
+    id: 72,
+    title: "Dry Head Massage",
+    slug: "dry-head-massage",
+    duration: "30-60 mins",
+    price: "$40-$75",
+    image: "/services/Balinese Body Massage Basic Facial.jpg",
+    category: "Spa Delights"
+  },
+  {
+    id: 73,
+    title: "Deep Moisturizing Body",
+    slug: "deep-moisturizing-body",
+    duration: "30-60 mins",
+    price: "$40-$75",
+    image: "/services/Deep Tissue Body Massage.jpg",
+    category: "Spa Delights"
+  },
+  {
+    id: 74,
+    title: "Back or Arms/Shoulder Scrub",
+    slug: "back-arms-shoulder-scrub",
+    duration: "30-60 mins",
+    price: "$40-$75",
+    image: "/services/Deep Tissue Body Massage.jpg",
+    category: "Spa Delights"
+  },
   // Special service for more options
   {
-    id: 47,
+    id: 75,
     title: "GO TO SERVICE LIST PAGE FOR MORE OPTIONS",
     slug: "more-services",
     duration: "5 mins",
