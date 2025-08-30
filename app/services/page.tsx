@@ -37,7 +37,6 @@ const serviceCategories = [
   "Body Massages",
   "Body Booster",
   "Waxing",
-  "Add Ons",
   "Spa Delights"
 ];
 
@@ -607,37 +606,9 @@ const allServices: Service[] = [
     image: "https://img1.wsimg.com/isteam/stock/R4ggkwa",
     category: "Waxing"
   },
-  // Add Ons
-  {
-    id: 63,
-    title: "Hot Stone Back",
-    slug: "hot-stone-back",
-    duration: "30 mins",
-    price: "$15",
-    image: "/services/hot-stone-massage.jpg",
-    category: "Add Ons"
-  },
-  {
-    id: 64,
-    title: "Deep Moisturizing",
-    slug: "deep-moisturizing",
-    duration: "30 mins",
-    price: "$25",
-    image: "/services/Deep Tissue Body Massage.jpg",
-    category: "Add Ons"
-  },
-  {
-    id: 65,
-    title: "30 Mins Massage",
-    slug: "30-mins-massage",
-    duration: "30 mins",
-    price: "$40",
-    image: "/services/Balinese Body Massage Basic Facial.jpg",
-    category: "Add Ons"
-  },
   // Spa Delights
   {
-    id: 66,
+    id: 63,
     title: "Hair and Scalp Treatment",
     slug: "hair-scalp-treatment",
     duration: "30-60 mins",
@@ -646,7 +617,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 67,
+    id: 64,
     title: "Headspa",
     slug: "headspa",
     duration: "30-60 mins",
@@ -655,7 +626,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 68,
+    id: 65,
     title: "Face Massage",
     slug: "face-massage",
     duration: "30-60 mins",
@@ -664,7 +635,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 69,
+    id: 66,
     title: "Shoulder, Face, Arms and Head Massage",
     slug: "shoulder-face-arms-head-massage",
     duration: "30-60 mins",
@@ -673,16 +644,16 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 70,
+    id: 67,
     title: "Foot Massage",
     slug: "foot-massage",
     duration: "30-60 mins",
     price: "$40-$75",
-    image: "/services/Balinese Body Massage Basic Facial.jpg",
+    image: "/services/foot-massage-warmup-twists.webp",
     category: "Spa Delights"
   },
   {
-    id: 71,
+    id: 68,
     title: "Back Massage",
     slug: "back-massage",
     duration: "30-60 mins",
@@ -691,7 +662,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 72,
+    id: 69,
     title: "Dry Head Massage",
     slug: "dry-head-massage",
     duration: "30-60 mins",
@@ -700,7 +671,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 73,
+    id: 70,
     title: "Deep Moisturizing Body",
     slug: "deep-moisturizing-body",
     duration: "30-60 mins",
@@ -709,7 +680,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 74,
+    id: 71,
     title: "Back or Arms/Shoulder Scrub",
     slug: "back-arms-shoulder-scrub",
     duration: "30-60 mins",
@@ -719,7 +690,7 @@ const allServices: Service[] = [
   },
   // Special service for more options
   {
-    id: 75,
+    id: 72,
     title: "GO TO SERVICE LIST PAGE FOR MORE OPTIONS",
     slug: "more-services",
     duration: "5 mins",
