@@ -361,9 +361,18 @@ const allServices: Service[] = [
     image: "https://img1.wsimg.com/isteam/stock/gYN7y1G",
     category: "Body Booster"
   },
-  // Waxing Services
   {
     id: 36,
+    title: "Vajacial + Brazilian Wax",
+    slug: "vajacial-brazilian-wax",
+    duration: "1 hr",
+    price: "$130",
+    image: "https://img1.wsimg.com/isteam/stock/gAqxgK1",
+    category: "Body Booster"
+  },
+  // Waxing Services
+  {
+    id: 37,
     title: "Eyebrow Waxing",
     slug: "eyebrow-waxing",
     duration: "15 mins",
@@ -372,7 +381,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 37,
+    id: 38,
     title: "Lip Waxing",
     slug: "lip-waxing",
     duration: "5 mins",
@@ -381,7 +390,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 38,
+    id: 39,
     title: "Half Arm Waxing",
     slug: "half-arm-waxing",
     duration: "15 mins",
@@ -390,7 +399,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 39,
+    id: 40,
     title: "Full Arm Waxing",
     slug: "full-arm-waxing",
     duration: "30 mins",
@@ -399,7 +408,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 40,
+    id: 41,
     title: "Chin Waxing",
     slug: "chin-waxing",
     duration: "5 mins",
@@ -408,7 +417,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 41,
+    id: 42,
     title: "Neck Waxing",
     slug: "neck-waxing",
     duration: "15 mins",
@@ -417,7 +426,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 42,
+    id: 43,
     title: "Lower Leg Waxing",
     slug: "lower-leg-waxing",
     duration: "30 mins",
@@ -426,7 +435,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 43,
+    id: 44,
     title: "Full Leg Waxing",
     slug: "full-leg-waxing",
     duration: "1 hr",
@@ -435,7 +444,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 44,
+    id: 45,
     title: "Full Face Waxing",
     slug: "full-face-waxing",
     duration: "30 mins",
@@ -444,7 +453,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 45,
+    id: 46,
     title: "Bikini Waxing",
     slug: "bikini-waxing",
     duration: "30 mins",
@@ -453,7 +462,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 46,
+    id: 47,
     title: "Underarm Waxing",
     slug: "underarm-waxing",
     duration: "15 mins",
@@ -462,7 +471,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 47,
+    id: 48,
     title: "Brazilian Wax ( Women )",
     slug: "brazilian-wax-women",
     duration: "45 mins",
@@ -471,7 +480,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 48,
+    id: 49,
     title: "Brazilian Waxing ( Men)",
     slug: "brazilian-waxing-men",
     duration: "45 mins",
@@ -480,7 +489,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 49,
+    id: 50,
     title: "Chest Wax",
     slug: "chest-wax",
     duration: "30 mins",
@@ -489,7 +498,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 50,
+    id: 51,
     title: "Stomach Wax",
     slug: "stomach-wax",
     duration: "30 mins",
@@ -498,7 +507,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 51,
+    id: 52,
     title: "Shoulders",
     slug: "shoulders-waxing",
     duration: "30 mins",
@@ -507,7 +516,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 52,
+    id: 53,
     title: "Feet",
     slug: "feet-waxing",
     duration: "5 mins",
@@ -517,7 +526,7 @@ const allServices: Service[] = [
   },
   // Additional Waxing Services
   {
-    id: 53,
+    id: 54,
     title: "Sideburns Waxing",
     slug: "sideburns-waxing",
     duration: "15 mins",
@@ -526,7 +535,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 54,
+    id: 55,
     title: "Upper Leg Waxing",
     slug: "upper-leg-waxing",
     duration: "30 mins",
@@ -535,7 +544,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 55,
+    id: 56,
     title: "Inner Thighs Waxing",
     slug: "inner-thighs-waxing",
     duration: "15 mins",
@@ -544,7 +553,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 56,
+    id: 57,
     title: "Nostrils Waxing",
     slug: "nostrils-waxing",
     duration: "15 mins",
@@ -553,7 +562,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 57,
+    id: 58,
     title: "French Bikini Waxing",
     slug: "french-bikini-waxing",
     duration: "30 mins",
@@ -562,7 +571,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 58,
+    id: 59,
     title: "Back Waxing",
     slug: "back-waxing",
     duration: "30 mins",
@@ -571,7 +580,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 59,
+    id: 60,
     title: "Buttocks Waxing",
     slug: "buttocks-waxing",
     duration: "30 mins",
@@ -580,7 +589,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 60,
+    id: 61,
     title: "Ears Waxing",
     slug: "ears-waxing",
     duration: "15 mins",
@@ -589,7 +598,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 61,
+    id: 62,
     title: "Feet/Toes Waxing",
     slug: "feet-toes-waxing",
     duration: "15 mins",
@@ -598,7 +607,7 @@ const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 62,
+    id: 63,
     title: "Hands/Fingers Waxing",
     slug: "hands-fingers-waxing",
     duration: "15 mins",
@@ -608,7 +617,7 @@ const allServices: Service[] = [
   },
   // Spa Delights
   {
-    id: 63,
+    id: 64,
     title: "Hair and Scalp Treatment",
     slug: "hair-scalp-treatment",
     duration: "30-60 mins",
@@ -617,7 +626,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 64,
+    id: 65,
     title: "Headspa",
     slug: "headspa",
     duration: "30-60 mins",
@@ -626,7 +635,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 65,
+    id: 66,
     title: "Face Massage",
     slug: "face-massage",
     duration: "30-60 mins",
@@ -635,7 +644,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 66,
+    id: 67,
     title: "Shoulder, Face, Arms and Head Massage",
     slug: "shoulder-face-arms-head-massage",
     duration: "30-60 mins",
@@ -644,7 +653,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 67,
+    id: 68,
     title: "Foot Massage",
     slug: "foot-massage",
     duration: "30-60 mins",
@@ -653,7 +662,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 68,
+    id: 69,
     title: "Back Massage",
     slug: "back-massage",
     duration: "30-60 mins",
@@ -662,7 +671,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 69,
+    id: 70,
     title: "Dry Head Massage",
     slug: "dry-head-massage",
     duration: "30-60 mins",
@@ -671,7 +680,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 70,
+    id: 71,
     title: "Deep Moisturizing Body",
     slug: "deep-moisturizing-body",
     duration: "30-60 mins",
@@ -680,7 +689,7 @@ const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 71,
+    id: 72,
     title: "Back or Arms/Shoulder Scrub",
     slug: "back-arms-shoulder-scrub",
     duration: "30-60 mins",
@@ -690,7 +699,7 @@ const allServices: Service[] = [
   },
   // Special service for more options
   {
-    id: 72,
+    id: 73,
     title: "GO TO SERVICE LIST PAGE FOR MORE OPTIONS",
     slug: "more-services",
     duration: "5 mins",
