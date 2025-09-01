@@ -4,30 +4,12 @@ import Navbar from "@/components/common/Navbar";
 import Image from "next/image";
 import { useState } from "react";
 import { allServices, serviceCategories, type Service } from "@/data/services";
-import Head from "next/head";
-
-
-export function ServicesSEO() {
-  return (
-    <Head>
-      <title>Online Appointments | Dermal Skin Clinic Spa Services</title>
-      <meta name="description" content="Book your next facial, massage, waxing, or spa treatment at Dermal Skin Clinic Spa. Explore our full menu of services and schedule your appointment online." />
-      <meta name="keywords" content="facial, massage, waxing, spa, esthetic, body, booking, online appointment, dermal skin clinic spa, beauty services" />
-      <meta property="og:title" content="Book Online | Dermal Skin Clinic Spa" />
-      <meta property="og:description" content="Discover and book top spa services including facials, massages, waxing, and more at Dermal Skin Clinic Spa." />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://dermalskinclinicspa.com/services" />
-      <meta property="og:image" content="https://dermalskinclinicspa.com/og-image.jpg" />
-      <link rel="canonical" href="https://dermalskinclinicspa.com/services" />
-    </Head>
-  );
-}
 
 export default function Services() {
   const [showAll, setShowAll] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("All Services");
 
-  // Show first 6 services initially, then all when "See All" is clicked
+  // Show first 12 services initially, then all when "See All" is clicked
   const displayedServices = showAll ? allServices : allServices.slice(0, 12);
 
   // Filter services by category
