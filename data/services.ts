@@ -103,6 +103,79 @@ export const allServices: Service[] = [
     image: "https://img1.wsimg.com/isteam/ip/799dec32-c44d-4302-a569-db93073f4b94/VIP%20Card_20240411_183834_0000.png",
     category: "Esthetic Facials"
   },
+  // Additional 30-min treatments
+  {
+    id: 10,
+    title: "Vitamin C Treatment (30 min basic)",
+    slug: "vitamin-c-treatment-30min",
+    duration: "30 mins",
+    price: "$75",
+    image: "/Basic-facial-men-women.jpg",
+    category: "Esthetic Facials"
+  },
+  {
+    id: 11,
+    title: "Collagen Treatment (30 min)",
+    slug: "collagen-treatment-30min",
+    duration: "30 mins",
+    price: "$75",
+    image: "/Placenta-Collagen Facial.jpg",
+    category: "Esthetic Facials"
+  },
+  {
+    id: 12,
+    title: "Microderm Mabrasion (30 min version)",
+    slug: "microderm-mabrasion-30min",
+    duration: "30 mins",
+    price: "$65",
+    image: "https://img1.wsimg.com/isteam/stock/10776",
+    category: "Esthetic Facials"
+  },
+  {
+    id: 13,
+    title: "Hydrating / Instant Glow (30 min)",
+    slug: "hydrating-instant-glow-30min",
+    duration: "30 mins",
+    price: "$70",
+    image: "/Basic-facial-men-women.jpg",
+    category: "Esthetic Facials"
+  },
+  {
+    id: 14,
+    title: "Oily Skin Care Treatment (30 min)",
+    slug: "oily-skin-care-treatment-30min",
+    duration: "30 mins",
+    price: "$70",
+    image: "/services/anti-acne-facial.jpg",
+    category: "Esthetic Facials"
+  },
+  {
+    id: 15,
+    title: "Eye Area Treatment (30 min)",
+    slug: "eye-area-treatment-30min",
+    duration: "30 mins",
+    price: "$60",
+    image: "/Basic-facial-men-women.jpg",
+    category: "Esthetic Facials"
+  },
+  {
+    id: 16,
+    title: "Acne/Pimple Treatment (short variant)",
+    slug: "acne-pimple-treatment-short",
+    duration: "30 mins",
+    price: "$65",
+    image: "/services/anti-acne-facial.jpg",
+    category: "Esthetic Facials"
+  },
+  {
+    id: 17,
+    title: "Glycolic LED Photo Aging (niche version of LED)",
+    slug: "glycolic-led-photo-aging",
+    duration: "30 mins",
+    price: "$85",
+    image: "/Basic-facial-men-women.jpg",
+    category: "Esthetic Facials"
+  },
   // Face & Body Packages
   {
     id: 10,
@@ -133,7 +206,7 @@ export const allServices: Service[] = [
   },
   // 3 Face Packages
   {
-    id: 13,
+    id: 25,
     title: "3 Face Basic Facial + Microdermabrason + Extreme Softness",
     slug: "3-face-basic-facial-microdermabrason-extreme-softness",
     duration: "60-90 mins",
@@ -142,7 +215,7 @@ export const allServices: Service[] = [
     category: "Face & Body Packages"
   },
   {
-    id: 14,
+    id: 26,
     title: "3 Face + Deep Cleansing Facial",
     slug: "3-face-deep-cleansing-facial",
     duration: "60-90 mins",
@@ -151,7 +224,7 @@ export const allServices: Service[] = [
     category: "Face & Body Packages"
   },
   {
-    id: 15,
+    id: 27,
     title: "3 Face + Placenta Collagen Facial or Whitening Facial or Anti-Acne Facial",
     slug: "3-face-placenta-collagen-whitening-anti-acne-facial",
     duration: "60-90 mins",
@@ -160,7 +233,7 @@ export const allServices: Service[] = [
     category: "Face & Body Packages"
   },
   {
-    id: 16,
+    id: 28,
     title: "3 Face + Face Treatment #1",
     slug: "3-face-treatment-1",
     duration: "60-90 mins",
@@ -169,7 +242,7 @@ export const allServices: Service[] = [
     category: "Face & Body Packages"
   },
   {
-    id: 17,
+    id: 29,
     title: "3 Face + Face Treatment #2",
     slug: "3-face-treatment-2",
     duration: "60-90 mins",
@@ -178,7 +251,7 @@ export const allServices: Service[] = [
     category: "Face & Body Packages"
   },
   {
-    id: 18,
+    id: 30,
     title: "3 Face + Vitamin C Facial or Acne Vulgaris Facial",
     slug: "3-face-vitamin-c-acne-vulgaris-facial",
     duration: "60-90 mins",
@@ -187,7 +260,7 @@ export const allServices: Service[] = [
     category: "Face & Body Packages"
   },
   {
-    id: 19,
+    id: 31,
     title: "3 Face + Peel",
     slug: "3-face-peel",
     duration: "60-90 mins",
@@ -196,7 +269,7 @@ export const allServices: Service[] = [
     category: "Face & Body Packages"
   },
   {
-    id: 20,
+    id: 32,
     title: "3 Face + Deep Tissue",
     slug: "3-face-deep-tissue",
     duration: "60-90 mins",
@@ -206,7 +279,7 @@ export const allServices: Service[] = [
   },
   // Body Massages
   {
-    id: 21,
+    id: 33,
     title: "Balinese Body Massage",
     slug: "balinese-body-massage",
     duration: "1 hr",
@@ -215,7 +288,7 @@ export const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 22,
+    id: 34,
     title: "Maternity Massage",
     slug: "maternity-massage",
     duration: "1 hr",
@@ -224,7 +297,7 @@ export const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 23,
+    id: 35,
     title: "Stretching Body Massage",
     slug: "stretching-body-massage",
     duration: "1 hr",
@@ -233,7 +306,7 @@ export const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 24,
+    id: 36,
     title: "Deep Tissue Body Massage",
     slug: "deep-tissue-body-massage",
     duration: "1 hr",
@@ -242,7 +315,7 @@ export const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 25,
+    id: 37,
     title: "Hot Stone Massage",
     slug: "hot-stone-massage",
     duration: "1 hr",
@@ -251,7 +324,7 @@ export const allServices: Service[] = [
     category: "Body Massages"
   },
   {
-    id: 26,
+    id: 38,
     title: "Hot Stone Massage 90 Minutes",
     slug: "hot-stone-massage-90-minutes",
     duration: "1 hr 30 mins",
@@ -259,9 +332,19 @@ export const allServices: Service[] = [
     image: "https://img1.wsimg.com/isteam/stock/1754",
     category: "Body Massages"
   },
+  // Generic 30 Mins Massage
+  {
+    id: 39,
+    title: "Generic \"30 Mins Massage\"",
+    slug: "generic-30-mins-massage",
+    duration: "30 mins",
+    price: "$50",
+    image: "/services/Balinese Body Massage Basic Facial.jpg",
+    category: "Body Massages"
+  },
   // Body Booster
   {
-    id: 27,
+    id: 40,
     title: "Underarm Cleaning",
     slug: "underarm-cleaning",
     duration: "30 mins",
@@ -270,7 +353,7 @@ export const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 28,
+    id: 41,
     title: "Back Treatment",
     slug: "back-treatment",
     duration: "30 mins",
@@ -279,7 +362,7 @@ export const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 29,
+    id: 42,
     title: "Chemical Peel (Body) Per Area",
     slug: "chemical-peel-body",
     duration: "30 mins",
@@ -288,7 +371,7 @@ export const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 30,
+    id: 43,
     title: "Underarm or Inguinal Whitening",
     slug: "underarm-inguinal-whitening",
     duration: "30 mins",
@@ -297,7 +380,7 @@ export const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 31,
+    id: 44,
     title: "Basic Vajacial Cleaning + Brazilian Wax",
     slug: "vajacial-cleaning-brazilian-wax",
     duration: "30 mins",
@@ -306,7 +389,7 @@ export const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 32,
+    id: 45,
     title: "Microdermabrasion (Body) Per Area",
     slug: "microdermabrasion-body",
     duration: "30 mins",
@@ -315,7 +398,7 @@ export const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 33,
+    id: 46,
     title: "Deep Moisturizing Body Treatment",
     slug: "deep-moisturizing-body-treatment",
     duration: "30 mins",
@@ -324,7 +407,7 @@ export const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 34,
+    id: 47,
     title: "Dead Sea Salt Body Scrub + Deep Moisturizing",
     slug: "dead-sea-salt-body-scrub",
     duration: "30 mins",
@@ -333,7 +416,7 @@ export const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 35,
+    id: 48,
     title: "Mud Mask Body Wrap + Deep Moisturizing Body Treatment",
     slug: "mud-mask-body-wrap",
     duration: "30 mins",
@@ -342,7 +425,7 @@ export const allServices: Service[] = [
     category: "Body Booster"
   },
   {
-    id: 36,
+    id: 49,
     title: "Vajacial + Brazilian Wax",
     slug: "vajacial-brazilian-wax",
     duration: "1 hr",
@@ -352,7 +435,7 @@ export const allServices: Service[] = [
   },
   // Waxing Services
   {
-    id: 37,
+    id: 50,
     title: "Eyebrow Waxing",
     slug: "eyebrow-waxing",
     duration: "15 mins",
@@ -361,7 +444,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 38,
+    id: 51,
     title: "Lip Waxing",
     slug: "lip-waxing",
     duration: "5 mins",
@@ -370,7 +453,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 39,
+    id: 52,
     title: "Half Arm Waxing",
     slug: "half-arm-waxing",
     duration: "15 mins",
@@ -379,7 +462,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 40,
+    id: 53,
     title: "Full Arm Waxing",
     slug: "full-arm-waxing",
     duration: "30 mins",
@@ -388,7 +471,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 41,
+    id: 54,
     title: "Chin Waxing",
     slug: "chin-waxing",
     duration: "5 mins",
@@ -397,7 +480,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 42,
+    id: 55,
     title: "Neck Waxing",
     slug: "neck-waxing",
     duration: "15 mins",
@@ -406,7 +489,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 43,
+    id: 56,
     title: "Lower Leg Waxing",
     slug: "lower-leg-waxing",
     duration: "30 mins",
@@ -415,7 +498,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 44,
+    id: 57,
     title: "Full Leg Waxing",
     slug: "full-leg-waxing",
     duration: "1 hr",
@@ -424,7 +507,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 45,
+    id: 58,
     title: "Full Face Waxing",
     slug: "full-face-waxing",
     duration: "30 mins",
@@ -433,7 +516,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 46,
+    id: 59,
     title: "Bikini Waxing",
     slug: "bikini-waxing",
     duration: "30 mins",
@@ -442,7 +525,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 47,
+    id: 60,
     title: "Underarm Waxing",
     slug: "underarm-waxing",
     duration: "15 mins",
@@ -451,7 +534,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 48,
+    id: 61,
     title: "Brazilian Wax ( Women )",
     slug: "brazilian-wax-women",
     duration: "45 mins",
@@ -460,7 +543,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 49,
+    id: 62,
     title: "Brazilian Waxing ( Men)",
     slug: "brazilian-waxing-men",
     duration: "45 mins",
@@ -469,7 +552,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 50,
+    id: 63,
     title: "Chest Wax",
     slug: "chest-wax",
     duration: "30 mins",
@@ -478,7 +561,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 51,
+    id: 64,
     title: "Stomach Wax",
     slug: "stomach-wax",
     duration: "30 mins",
@@ -487,7 +570,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 52,
+    id: 65,
     title: "Shoulders",
     slug: "shoulders-waxing",
     duration: "30 mins",
@@ -496,7 +579,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 53,
+    id: 66,
     title: "Feet",
     slug: "feet-waxing",
     duration: "5 mins",
@@ -506,7 +589,7 @@ export const allServices: Service[] = [
   },
   // Additional Waxing Services
   {
-    id: 54,
+    id: 67,
     title: "Sideburns Waxing",
     slug: "sideburns-waxing",
     duration: "15 mins",
@@ -515,7 +598,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 55,
+    id: 68,
     title: "Upper Leg Waxing",
     slug: "upper-leg-waxing",
     duration: "30 mins",
@@ -524,7 +607,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 56,
+    id: 69,
     title: "Inner Thighs Waxing",
     slug: "inner-thighs-waxing",
     duration: "15 mins",
@@ -533,7 +616,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 57,
+    id: 70,
     title: "Nostrils Waxing",
     slug: "nostrils-waxing",
     duration: "15 mins",
@@ -542,7 +625,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 58,
+    id: 71,
     title: "French Bikini Waxing",
     slug: "french-bikini-waxing",
     duration: "30 mins",
@@ -551,7 +634,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 59,
+    id: 72,
     title: "Back Waxing",
     slug: "back-waxing",
     duration: "30 mins",
@@ -560,7 +643,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 60,
+    id: 73,
     title: "Buttocks Waxing",
     slug: "buttocks-waxing",
     duration: "30 mins",
@@ -569,7 +652,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 61,
+    id: 74,
     title: "Ears Waxing",
     slug: "ears-waxing",
     duration: "15 mins",
@@ -578,7 +661,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 62,
+    id: 75,
     title: "Feet/Toes Waxing",
     slug: "feet-toes-waxing",
     duration: "15 mins",
@@ -587,7 +670,7 @@ export const allServices: Service[] = [
     category: "Waxing"
   },
   {
-    id: 63,
+    id: 76,
     title: "Hands/Fingers Waxing",
     slug: "hands-fingers-waxing",
     duration: "15 mins",
@@ -597,7 +680,7 @@ export const allServices: Service[] = [
   },
   // Spa Delights
   {
-    id: 64,
+    id: 77,
     title: "Hair and Scalp Treatment",
     slug: "hair-scalp-treatment",
     duration: "30-60 mins",
@@ -606,7 +689,7 @@ export const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 65,
+    id: 78,
     title: "Headspa",
     slug: "headspa",
     duration: "30-60 mins",
@@ -615,7 +698,7 @@ export const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 66,
+    id: 79,
     title: "Face Massage",
     slug: "face-massage",
     duration: "30-60 mins",
@@ -624,7 +707,7 @@ export const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 67,
+    id: 80,
     title: "Shoulder, Face, Arms and Head Massage",
     slug: "shoulder-face-arms-head-massage",
     duration: "30-60 mins",
@@ -633,7 +716,7 @@ export const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 68,
+    id: 81,
     title: "Foot Massage",
     slug: "foot-massage",
     duration: "30-60 mins",
@@ -642,7 +725,7 @@ export const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 69,
+    id: 82,
     title: "Back Massage",
     slug: "back-massage",
     duration: "30-60 mins",
@@ -651,7 +734,7 @@ export const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 70,
+    id: 83,
     title: "Dry Head Massage",
     slug: "dry-head-massage",
     duration: "30-60 mins",
@@ -660,7 +743,7 @@ export const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 71,
+    id: 84,
     title: "Deep Moisturizing Body",
     slug: "deep-moisturizing-body",
     duration: "30-60 mins",
@@ -669,7 +752,7 @@ export const allServices: Service[] = [
     category: "Spa Delights"
   },
   {
-    id: 72,
+    id: 85,
     title: "Back or Arms/Shoulder Scrub",
     slug: "back-arms-shoulder-scrub",
     duration: "30-60 mins",
@@ -679,7 +762,7 @@ export const allServices: Service[] = [
   },
   // Dermal Signature Face Treatment
   {
-    id: 73,
+    id: 86,
     title: "HydraFacial",
     slug: "hydrafacial",
     duration: "90 mins",
@@ -688,7 +771,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 74,
+    id: 87,
     title: "Nano Face Treatment",
     slug: "nano-face-treatment",
     duration: "90 mins",
@@ -697,7 +780,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 75,
+    id: 88,
     title: "Derma Planning",
     slug: "derma-planning",
     duration: "90 mins",
@@ -706,7 +789,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 76,
+    id: 89,
     title: "Radio Frequency Package",
     slug: "radio-frequency-package",
     duration: "90 mins",
@@ -715,7 +798,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 77,
+    id: 90,
     title: "Glassy Skin",
     slug: "glassy-skin",
     duration: "90 mins",
@@ -724,7 +807,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 78,
+    id: 91,
     title: "Underarm Whitening (With Products)",
     slug: "underarm-whitening-with-products",
     duration: "90 mins",
@@ -733,7 +816,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 79,
+    id: 92,
     title: "Underarm Whitening (Without Products)",
     slug: "underarm-whitening-without-products",
     duration: "90 mins",
@@ -743,7 +826,7 @@ export const allServices: Service[] = [
   },
   // Dermal Signature Face Treatment (Additional)
   {
-    id: 80,
+    id: 93,
     title: "Hollywood Facial",
     slug: "hollywood-facial",
     duration: "90 mins",
@@ -752,7 +835,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 81,
+    id: 94,
     title: "LED Photo Aging Treatment",
     slug: "led-photo-aging-treatment",
     duration: "90 mins",
@@ -761,7 +844,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 82,
+    id: 95,
     title: "Obaji Infusion Whitening Facial",
     slug: "obaji-infusion-whitening-facial",
     duration: "90 mins",
@@ -770,7 +853,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 83,
+    id: 96,
     title: "ACNE Vulgaris Facial",
     slug: "acne-vulgaris-facial",
     duration: "90 mins",
@@ -779,7 +862,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 84,
+    id: 97,
     title: "Vampire Facelift Facial",
     slug: "vampire-facelift-facial",
     duration: "90 mins",
@@ -788,7 +871,7 @@ export const allServices: Service[] = [
     category: "Dermal Signature Face Treatment"
   },
   {
-    id: 85,
+    id: 98,
     title: "Microneedling Treatment",
     slug: "microneedling-treatment",
     duration: "90 mins",
@@ -798,7 +881,7 @@ export const allServices: Service[] = [
   },
   // Special service for more options
   {
-    id: 86,
+    id: 99,
     title: "GO TO SERVICE LIST PAGE FOR MORE OPTIONS",
     slug: "more-services",
     duration: "5 mins",
