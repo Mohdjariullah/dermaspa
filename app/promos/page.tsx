@@ -224,7 +224,7 @@ export default function Promos() {
                 📞 Book Your September Special Today!
               </h3>
               <p className="text-lg font-bold text-gray-700 mb-4">
-                Limited Time Offers - Don't Miss Out!
+                Limited Time Offers - Don&apos;t Miss Out!
               </p>
               <button 
                 onClick={() => window.location.href = '/services'}
