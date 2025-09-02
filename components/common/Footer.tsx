@@ -16,7 +16,8 @@ export default function Footer() {
         <div className="mb-2 text-sm sm:text-base">274 Chalan San Antonio Tamuning Guam 96931</div>
         <div className="mb-2 text-sm sm:text-base">
           <div className="mb-1">Clinic: (671) 647-7546</div>
-          <div className="mb-1">24/7 Booking (Voice AI Agent): (888) 964-5925</div>
+          <div className="mb-1">24/7 Booking: (888) 964-5925</div>
+          <div className="mb-1">Phone: (671) 489-0327</div>
           <div className="mb-1">Email: dermalskinclinicandspa@gmail.com</div>
         </div>
         <div className="text-xs mb-2 leading-relaxed">
